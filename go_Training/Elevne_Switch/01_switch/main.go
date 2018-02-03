@@ -3,15 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	switch "Mhi" {
-	case "Danil":
-		fmt.Println("Wassup Daniel")
-	case "Lisi":
-		fmt.Println("Wassup Lisi")
-	case "Zhangsan":
-		fmt.Println("WASSUP  Zhangsan")
-	default:
-		fmt.Println("Have you no friends?")
-
+	counter := 0
+	for i := 0;i < 10;i ++ {
+		if i%3 == 0 {
+			counter += i  //3 6 9 = 18
+		}else if i % 5 == 0{
+			counter += i
+			fmt.Printf("wo shi di yige :%d\n",counter)
+			}
 	}
-}
+	fmt.Println(counter)
+	}
