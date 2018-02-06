@@ -18,18 +18,22 @@ func main() {
 	defer res.Body.Close()
 
 	scanner.Split(bufio.ScanWords)
-	buckets := make([]int,200)
+	buckets := make([]int,12)
 
 	for scanner.Scan(){
-		n := hashBucket(scanner.Text())
+		n := hashBucket(scanner.Text(),12)
 
 		buckets[n] ++
 	}
-	fmt.Println(buckets[65:123])
+	fmt.Println(buckets)
 	//fmt.Println(len(buckets[65:123]))
 
 }
 
-func hashBucket(word string) int  {
-	return int(word[0])
+func hashBucket(word string,buckets int) int  {
+	var sum int
+	for _,v := range word{
+		sum += int(v)
+	}
+	return sum % buckets
 }
