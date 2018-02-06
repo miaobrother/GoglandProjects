@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 
-type square struct {
+type square struct {//define a struct
 	side float64
 }
 
