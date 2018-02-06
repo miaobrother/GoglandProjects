@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"../icom"
 	"../stringutil"
+	"fmt"
 )
 
 func main() {

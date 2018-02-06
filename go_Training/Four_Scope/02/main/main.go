@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"../vis"
+	"fmt"
 )
 
 func main() {

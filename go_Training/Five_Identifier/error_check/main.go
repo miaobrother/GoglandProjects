@@ -9,15 +9,15 @@ import (
 
 func main() {
 
-	res,err := http.Get("https://api.usnoon.com/apphtml/banner.html")
+	res, err := http.Get("https://api.usnoon.com/apphtml/banner.html")
 
-	if err != nil{
+	if err != nil {
 		log.Fatal(err)
 	}
-	page,err := ioutil.ReadAll(res.Body)
+	page, err := ioutil.ReadAll(res.Body)
 	res.Body.Close()
-	if err != nil{
+	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%s",page)
+	fmt.Printf("%s", page)
 }

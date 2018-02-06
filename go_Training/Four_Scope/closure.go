@@ -7,16 +7,14 @@ import (
 
 //var x = 0
 
-func max(x int) int  {
+func max(x int) int {
 	return 42 + x
 }
-
 
 func main() {
 
 	max := max(7)
 	fmt.Println(max)
-
 
 	//x := 42
 	//fmt.Println(x)
@@ -50,8 +48,6 @@ func main() {
 	//fmt.Println(increment())
 	//fmt.Println(increment())
 
-
-
 }
 
 //var y = 42
@@ -67,5 +63,3 @@ func main() {
 //	x ++
 //	return x
 //}
-
-

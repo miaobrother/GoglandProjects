@@ -21,5 +21,5 @@ func main() {
 
 	fmt.Print("Please enter smaller number:")
 	fmt.Scan(&numTwo)
-	fmt.Println(numOne,"%",numTwo,  " = ",numOne ,numTwo)
+	fmt.Println(numOne, "%", numTwo, " = ", numOne, numTwo)
 }

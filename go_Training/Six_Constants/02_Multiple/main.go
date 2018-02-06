@@ -36,7 +36,7 @@ import (
 //}
 
 const (
-	_ = iota // 0
+	_  = iota             // 0
 	KB = 1 << (iota * 10) // * 1的 10次方
 	MB = 1 << (iota * 10)
 	GB = 1 << (iota * 10)
@@ -55,4 +55,3 @@ func main() {
 	fmt.Printf("%d\n", TB)
 
 }
-

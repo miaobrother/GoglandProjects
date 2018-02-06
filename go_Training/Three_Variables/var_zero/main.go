@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 var a = "This is stored in the variable a"
-var b ,c string  = "stored in b","stored in c"
+var b, c string = "stored in b", "stored in c"
 var d string
 
 func main() {
@@ -12,8 +12,8 @@ func main() {
 	var e = 42
 	f := 43
 	g := "stored in g"
-	h,i := "stored in h","stored in i"
-	j,k,l,m := 44.7,true,false,'m'
+	h, i := "stored in h", "stored in i"
+	j, k, l, m := 44.7, true, false, 'm'
 	n := "n"
 	o := `o`
 	var p = `p`
@@ -33,8 +33,8 @@ func main() {
 	fmt.Println("m - ", m)
 	fmt.Println("n - ", n)
 	fmt.Println("o - ", o)
-	fmt.Printf("%T\n",o)
-	fmt.Printf("%T\n",p)
+	fmt.Printf("%T\n", o)
+	fmt.Printf("%T\n", p)
 
 	//var a int
 	//var b string
@@ -52,6 +52,5 @@ func main() {
 	// d := 4
 	// e := true
 	//fmt.Println(message,a,b,c,d,e)
-
 
 }

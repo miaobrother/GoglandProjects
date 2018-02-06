@@ -7,10 +7,10 @@ import (
 
 type contact struct {
 	greeting string
-	name string
+	name     string
 }
 
-func SwitchOnType(x interface{})  {
+func SwitchOnType(x interface{}) {
 	switch x.(type) {
 	case int:
 		fmt.Println("int")
@@ -26,9 +26,8 @@ func SwitchOnType(x interface{})  {
 func main() {
 	SwitchOnType(7)
 	SwitchOnType("Mical")
-	var t = contact{"Good to se you,","Zhangsan"}
+	var t = contact{"Good to se you,", "Zhangsan"}
 	SwitchOnType(t)
 	SwitchOnType(t.greeting)
 	SwitchOnType(t.name)
 }
-

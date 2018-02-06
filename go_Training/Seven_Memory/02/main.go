@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const meterToYards float64  = 1.09361
+const meterToYards float64 = 1.09361
 
 func main() {
 	var meters float64
@@ -12,5 +12,5 @@ func main() {
 
 	yards := meters * meterToYards
 
-	fmt.Println(meters,"meters is",yards,"yards.")
+	fmt.Println(meters, "meters is", yards, "yards.")
 }
