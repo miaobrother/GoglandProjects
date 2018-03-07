@@ -12,7 +12,7 @@ func main() {
 	//0.0 <= f <1.0
 	fmt.Printf("This float is:%v\n", rand.Float64())
 
-	fmt.Print((rand.Float64() * 5) + 5)
+	fmt.Print((rand.Float64() * 5) + 5,",")
 	fmt.Print((rand.Float64() * 5) + 5)
 
 	fmt.Println()
