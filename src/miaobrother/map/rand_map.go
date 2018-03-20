@@ -5,6 +5,7 @@ import (
 	"time"
 	"math/rand"
 	//"expvar"
+	"sort"
 )
 
 func main() {
@@ -17,9 +18,14 @@ func main() {
 		value := rand.Intn(256)
 		m[key] = value
 	}
+	var keys []string = make([]string,0,257)
 	for k,v := range m{
 		fmt.Printf("The key is:%v,The value is:%v\n",k,v)
+		keys = append(keys,k)//输出是非排序好的，
 	}
-	fmt.Println(len(m))
-
+	//fmt.Println(len(m))
+	sort.Strings(keys)//使用sort函数进行排序
+	for _,val := range keys{
+		fmt.Printf("key :%s val is %d\n",val,m[val])
+	}
 }
