@@ -4,16 +4,30 @@ import (
 	"fmt"
 	"os"
 	"bufio"
+	"log"
+	"io"
 )
 
 func main() {
-	var str string
-	/*
-	fmt.Scanf("%s",&str)
-	fmt.Println("read from fmt:",str)
-	*/
+	//var str string
+	inPut,err := os.Open("./input.go")
+	if err != nil{
+		log.Fatal(err)
+		return
+	}
+	defer inPut.Close()
+	reader := bufio.NewReader(inPut)
+	for{
+		strone,err := reader.ReadString('\n')
+		if err == io.EOF{
+			break
+		}else if err != nil{
+			log.Fatal(err)
+			return
+		}
+		fmt.Println(strone)
+	}
 
-	reader := bufio.NewReader(os.Stdin)
-	str,_ = reader.ReadString('\n')
-	fmt.Println("read from bufio:",str)
+
+
 }
