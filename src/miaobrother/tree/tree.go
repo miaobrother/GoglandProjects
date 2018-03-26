@@ -1,3 +1,87 @@
+/*
+|---miaobrother
+|   |----arithmetic
+|   |   |----choice.go
+|   |   |----insert_Ari.go
+|   |   |----leetcode_Sum.go
+|   |   |----sum_array.go
+|   |----bookMgr
+|   |   |----api
+|   |   |   |----api.go
+|   |   |   |----error_code.go
+|   |   |----logic
+|   |   |   |----book.go
+|   |   |   |----book_mgr.go
+|   |   |   |----student.go
+|   |   |   |----student_mgr.go
+|   |----calc
+|   |   |----main.go
+|   |   |----stack.go
+|   |----coins
+|   |   |----main.go
+|   |----datetime
+|   |   |----main.go
+|   |----file_read
+|   |   |----change_String.go
+|   |   |----main.go
+|   |   |----reverse_str.go
+|   |----for_para
+|   |   |----main.go
+|   |----gen_passwd
+|   |   |----gen_passwd
+|   |   |----main.go
+|   |----go_io
+|   |   |----Args.go
+|   |   |----bufio.go
+|   |   |----cat.go
+|   |   |----copyFile.go
+|   |   |----defer.go
+|   |   |----flag.go
+|   |   |----input.go
+|   |   |----ioutil.go
+|   |   |----main.go
+|   |   |----read_gzip.go
+|   |   |----source.txt
+|   |   |----target.txt
+|   |   |----test.go
+|   |   |----urfave.go
+|   |   |----write.go
+|   |   |----writeFile.go
+|   |----go_os
+|   |   |----main.go
+|   |----goroutine
+|   |   |----main.go
+|   |----json
+|   |   |----main.go
+|   |----main.go
+|   |----map
+|   |   |----change_map.go
+|   |   |----count_string.go
+|   |   |----nil_map.go
+|   |   |----rand_map.go
+|   |   |----sliceMap.go
+|   |   |----student_info.go
+|   |----multiPlication
+|   |   |----main.go
+|   |----pointer
+|   |   |----main.go
+|   |----prime
+|   |   |----goNarcissistic.go
+|   |   |----go_count_string.go
+|   |   |----main.go
+|   |----string
+|   |   |----main.go
+|   |----struct_para
+|   |   |----go_inherit.go
+|   |   |----go_method.go
+|   |   |----go_struct.go
+|   |   |----go_struct_mem.go
+|   |   |----go_struct_point.go
+|   |   |----go_struct_tag.go
+|   |----tree
+|   |   |----tree
+|   |   |----tree.go
+ */
 package main
 
 import (
