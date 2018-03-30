@@ -22,6 +22,21 @@ func testPointerOne()  {
 	modify(p)
 	fmt.Println(b)
 }
+
+func modifyInt(a int) {
+	a = 1000
+}
+
+func testmodifyInt()  {
+	var b int = 10
+
+	modifyInt(b)
+	fmt.Printf("b = %d\n",b)
+}
+
+
+
+
 func main() {
 	//var a int32
 	//a = 256
@@ -31,5 +46,6 @@ func main() {
 	//b = &a
 	//fmt.Println(&b,&a)
 	//testPointer()
-	testPointerOne()
+	//testPointerOne()
+	testmodifyInt()
 }

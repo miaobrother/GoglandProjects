@@ -39,7 +39,7 @@ func testReverseStringTwo()  {
 
 func testReversePalindrome()  {
 
-	var strThree  = "上海自来水来自海上"
+	var strThree  = "noon"
 	var bytesThree []rune = []rune(strThree)
 	fmt.Printf("This is a byte:%c\n",bytesThree)
 
