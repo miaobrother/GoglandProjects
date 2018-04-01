@@ -2,13 +2,11 @@ package log
 
 import "fmt"
 
-
-
 type FileLog struct {
 
 }
 
-func NewFileLog(file string) *FileLog  {
+func FileLogOne(file string) LogInterface  {
 	return &FileLog{}
 }
 

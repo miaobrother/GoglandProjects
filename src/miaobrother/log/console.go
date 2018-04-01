@@ -3,18 +3,22 @@ package log
 import (
 	"fmt"
 )
+
 type ConsoleLog struct {
-	
+
 }
 
-func LogConsoleDebug(file string) *ConsoleLog  {
+func NewConsoleLog(file string) LogInterface  {
 	return &ConsoleLog{}
 }
 
-func (f * ConsoleLog) LogConsoleDebug(msg string)  {
-	fmt.Println("console ",msg)
+func (f *ConsoleLog) LogDebug(msg string)  {
+	fmt.Println("console:",msg)
 }
 
-func (f *ConsoleLog) LogConsoleWran(msg string)  {
-	fmt.Println("console",msg)
+func (f *ConsoleLog) LogWarn(msg string)  {
+	fmt.Println("console:",msg)
 }
+
+
+

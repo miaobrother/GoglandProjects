@@ -1,6 +1,6 @@
 package log
 
 type LogInterface interface {
-	logDebug(msg string)
-	logWarn(msg string)
+	LogDebug(msg string)
+	LogWarn(msg string)
 }
