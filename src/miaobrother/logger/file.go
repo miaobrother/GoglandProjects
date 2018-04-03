@@ -17,18 +17,34 @@ type FileLogger struct {
 	warnFile *os.File //定义一个存错误日志的日志文件
 }
 
-func NewFileLogger(level int, logPath, logName string) LogInterface {
-	logger :=  &FileLogger{
+func NewFileLogger(config map[string]string)(log LogInterface,err error) {
+	logPath,ok := config["log_path"]
+	if !ok{
+		err = fmt.Errorf("not found log_path")
+		return
+	}
+	logName,ok := config["log_name"]
+	if !ok{
+		err = fmt.Errorf("not found log_name")
+		return
+	}
+	logLevel,ok := config["log_level"]
+	if !ok{
+		err = fmt.Errorf("not found log_level")
+		return
+	}
+	level := getLevelInt(logLevel)
+	log =  &FileLogger{
 		level:   level,
 		logPath: logPath,
 		logName: logName,
 	}
-	logger.init()//执行初始化函数
-	return logger
+	log.Init()//执行初始化函数
+	return
 
 }
 
-func (f *FileLogger) init()  {
+func (f *FileLogger) Init()  {
 	fileName := fmt.Sprintf("%s/%s.log",f.logPath,f.logName)
 	file,err := os.OpenFile(fileName,os.O_CREATE|os.O_APPEND|os.O_WRONLY,0755)
 	if err != nil{
