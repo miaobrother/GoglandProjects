@@ -8,6 +8,16 @@ import (
 	"fmt"
 )
 
+type logData struct {
+
+	Message string
+	Time string
+	LevelStr string
+	Filename string
+	FuncName string
+	LineNo int
+}
+
 func GetLineInfo()(fileName string,funcName string,lineNo int)  {
 	pc,file,line,ok := runtime.Caller(3)
 	if ok{
@@ -18,7 +28,10 @@ func GetLineInfo()(fileName string,funcName string,lineNo int)  {
 	return
 }
 
-
+/*
+1、当业务系统调用日志的方法时，可以把日志相关数据写入到chan中
+2、只是针对文件日志库
+ */
 
 func writeLog(file *os.File,level int,format string,args...interface{})  {
 	now := time.Now()

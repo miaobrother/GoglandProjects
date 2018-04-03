@@ -7,6 +7,7 @@ import (
 	//"time"
 	//"path"
 	//"miaobrother/log"
+	"strconv"
 )
 
 type FileLogger struct {
@@ -15,6 +16,7 @@ type FileLogger struct {
 	logName string
 	gessfile *os.File //定义一个存正常交易日志的文件
 	warnFile *os.File //定义一个存错误日志的日志文件
+	logDataChan chan *logData //定义一个队列
 }
 
 func NewFileLogger(config map[string]string)(log LogInterface,err error) {
@@ -33,11 +35,22 @@ func NewFileLogger(config map[string]string)(log LogInterface,err error) {
 		err = fmt.Errorf("not found log_level")
 		return
 	}
+
+	logChanSize,ok := config["log_chan_size"]
+	if !ok{
+		logChanSize = "10000"
+	}
+	chanSize,err := strconv.Atoi(logChanSize)
+	if err != nil{
+		chanSize = 50000
+	}
+
 	level := getLevelInt(logLevel)
 	log =  &FileLogger{
 		level:   level,
 		logPath: logPath,
 		logName: logName,
+		logDataChan:make(chan *logData,chanSize),
 	}
 	log.Init()//执行初始化函数
 	return
