@@ -1,16 +1,19 @@
 package logger
 
-const(
+const (
 	LogLevelDebug = iota
 	LogLevelTrace
 	LogLevelInfo
 	LogLevelWarn
 	LogLevelError
 	LogLevelFatal
-
+)
+const(
+	LogSplitTypeHour = iota
+	LogSplitTypeSize
 )
 
-func getLevelText(level int) string  {
+func getLevelText(level int) string {
 	switch level {
 	case LogLevelDebug:
 		return "Debug"
@@ -29,8 +32,7 @@ func getLevelText(level int) string  {
 	}
 }
 
-
-func getLevelInt(level string) int  {
+func getLevelInt(level string) int {
 	switch level {
 	case "debug":
 		return LogLevelDebug
