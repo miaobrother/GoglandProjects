@@ -6,6 +6,8 @@ import (
 	"log"
 	"net/http"
 	"strings"
+	"strconv"
+	"regexp"
 )
 
 func sayHelloName(w http.ResponseWriter,r * http.Request)  {
@@ -29,9 +31,33 @@ func login(w http.ResponseWriter,r *http.Request)  {
 	if r.Method == "GET"{
 		t,_ := template.ParseFiles("login.html")
 		t.Execute(w,nil)
+	}else if r.Method == "POST" {
+		username := r.FormValue("username")
+		password := r.FormValue("password")
+		phone := r.FormValue("phone")
+		utype := r.FormValue("utype")
+		fmt.Println(utype)
+
+		//获取年龄转换城int
+		age, err := strconv.Atoi(r.FormValue("age"))
+		if err != nil {
+			w.Write([]byte("数字转换异常"))
+			return
+		}
+		if username == "" || password == "" || age == 0 {
+			w.Write([]byte("username or password or age is not variable"))
+			return
+		}
+		if age > 100 {
+			w.Write([]byte("The age is too big"))
+			return
+		}
+		if m, _ := regexp.MatchString(`^(1[3|4|5|8][0-9]\d{4,8})$`, phone); !m {
+			w.Write([]byte("phone is error"))
+			return
+		}
 	}else {
-		fmt.Println(r.PostFormValue("username"))
-		fmt.Println(r.PostFormValue("password"))
+		fmt.Println("error")
 	}
 }
 
