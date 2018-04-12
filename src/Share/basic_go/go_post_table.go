@@ -6,8 +6,10 @@ import (
 	"log"
 	"net/http"
 	"strings"
-	"strconv"
-	"regexp"
+	//"strconv"
+	//"regexp"
+	"os"
+	"io"
 )
 
 func sayHelloName(w http.ResponseWriter,r * http.Request)  {
@@ -26,12 +28,33 @@ func sayHelloName(w http.ResponseWriter,r * http.Request)  {
 	fmt.Fprintf(w,"hello box")
 }
 
-func login(w http.ResponseWriter,r *http.Request)  {
+func upload(w http.ResponseWriter,r *http.Request)  {
 	fmt.Println("method",r.Method)
 	if r.Method == "GET"{
-		t,_ := template.ParseFiles("login.html")
+		t,_ := template.ParseFiles("upload.html")
 		t.Execute(w,nil)
-	}else if r.Method == "POST" {
+	}else if r.Method == "POST"{
+		r.ParseMultipartForm(32<<20)
+		file,handler,err := r.FormFile("uploadfile")
+		if err != nil{
+			fmt.Println(err)
+			return
+		}
+		defer file.Close()
+		f,err := os.OpenFile("./upload" + handler.Filename,os.O_WRONLY|os.O_CREATE,0666)
+		if err != nil{
+			fmt.Println(err)
+			return
+		}
+		defer f.Close()
+		io.Copy(f,file)
+		fmt.Fprintf(w,"%v",handler.Header)
+		fmt.Fprintf(w,"上传成功")
+	}else{
+		fmt.Println("error")
+	}
+		/*
+
 		username := r.FormValue("username")
 		password := r.FormValue("password")
 		phone := r.FormValue("phone")
@@ -56,16 +79,15 @@ func login(w http.ResponseWriter,r *http.Request)  {
 			w.Write([]byte("phone is error"))
 			return
 		}
-	}else {
-		fmt.Println("error")
 	}
+	*/
 }
 
 func main() {
 	//监听 走sayHomeName
 
 	http.HandleFunc("/",sayHelloName)
-	http.HandleFunc("/login",login)
+	http.HandleFunc("/upload",upload)
 
 	err := http.ListenAndServe(":8081",nil)
 	if err != nil{
