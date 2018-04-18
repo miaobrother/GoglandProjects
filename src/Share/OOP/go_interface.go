@@ -44,6 +44,16 @@ func main() {
 	WhoSayHi(s)
 	WhoSayHi(t)
 	WhoSayHi(&str)
+
+	x := make([]Humaner,3)
+	x[0] =s
+	x[1] =t
+	x[2] =&str
+
+	for i,v := range x{
+		fmt.Println("The index is ",i)
+		fmt.Println("The index is ",v)
+	}
 }
 
 
