@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"reflect"
 	"runtime"
-	"math"
 )
 
 func eval(a, b int, op string) int {
@@ -33,34 +33,32 @@ func apply(oc func(int, int) int, a, b int) int {
 	ocName := runtime.FuncForPC(p).Name()
 	fmt.Printf("The oc type is %v\n", p)
 	fmt.Printf("Calling function %s with args "+"(%d,%d)", ocName, a, b)
-	return oc(a ,b)
+	return oc(a, b)
 
 }
-func pow(a,b int)int  {
-	return int(math.Pow(float64(a),float64(b)))
+func pow(a, b int) int {
+	return int(math.Pow(float64(a), float64(b)))
 }
 
-func sum(numbers ...int) int  {//可变参数
+func sum(numbers ...int) int { //可变参数
 	s := 0
-	for i := range numbers{
+	for i := range numbers {
 		s += numbers[i]
 	}
 	return s
 }
 
-func swap(a,b *int)  {//指针传递
-	*a,*b = *b,*a
+func swap(a, b *int) { //指针传递
+	*a, *b = *b, *a
 }
 func main() {
 	fmt.Println(div(13, 3))
 	fmt.Println("operation is:", eval(1, 5, "*"))
-	fmt.Println(apply(pow,3,4))
+	fmt.Println(apply(pow, 3, 4))
 
+	fmt.Println(sum(1, 2, 3, 4, 5))
 
-	fmt.Println(sum(1,2,3,4,5))
-
-
-	var a,b = 1,2
-	swap(&a,&b)
-	fmt.Println(a,b)
+	var a, b = 1, 2
+	swap(&a, &b)
+	fmt.Println(a, b)
 }
