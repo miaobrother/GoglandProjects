@@ -17,11 +17,11 @@ type ServerConfig struct {
 }
 
 type MysqlConfig struct {
-	Username string `ini:"username"`
-	Passwd   string `ini:"passwd"`
-	Database string `ini:"database"`
-	Host     string `ini:"host"`
-	Port     int    `ini:"port"`
+	Username string  `ini:"username"`
+	Passwd   string  `ini:"passwd"`
+	Database string  `ini:"database"`
+	Host     string  `ini:"host"`
+	Port     int     `ini:"port"`
 	Price    float32 `ini:"price"`
 }
 
@@ -39,28 +39,27 @@ func TestIniConfig(t *testing.T) { //单元测试函数
 	}
 	confData, err := Marshal(conf)
 	fmt.Println(string(confData))
-	if err != nil{
-		fmt.Errorf("the err is %s\n",err)
+	if err != nil {
+		fmt.Errorf("the err is %s\n", err)
 	}
 	t.Logf("unmarshal success,conf:%#v\n", conf)
 
-	MarshalFile(conf,"/Users/zhangyalei/Desktop/test.conf")
+	MarshalFile(conf, "/Users/zhangyalei/Desktop/test.conf")
 }
-
 
 func TestIniConfigFileOpen(t *testing.T) { //单元测试函数
 	filename := "/Users/zhangyalei/test.conf"
 	var conf Config
-	err := MarshalFile(conf,filename)
-	if err != nil{
-		t.Errorf("unmarshal failed,err:%v\n",err)
+	err := MarshalFile(conf, filename)
+	if err != nil {
+		t.Errorf("unmarshal failed,err:%v\n", err)
 		return
 	}
 	var confTwo Config
-	err = UnMarshalFile(filename,&confTwo)
+	err = UnMarshalFile(filename, &confTwo)
 	//fmt.Println(string(confData))
-	if err != nil{
-		fmt.Errorf("the err is %s\n",err)
+	if err != nil {
+		fmt.Errorf("the err is %s\n", err)
 	}
 	t.Logf("unmarshal failed,conf:%#v\n", confTwo)
 }

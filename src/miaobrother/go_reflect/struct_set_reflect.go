@@ -7,8 +7,8 @@ import (
 
 type StudentOne struct {
 	Name string
-	Age int
-	Sex string
+	Age  int
+	Sex  string
 }
 
 func main() {
@@ -18,6 +18,6 @@ func main() {
 	v.Elem().Field(0).SetString("stu01")
 	v.Elem().FieldByName("Sex").SetString("nan")
 	v.Elem().FieldByName("Age").SetInt(99)
-	fmt.Printf("s is %#v\n",s)
+	fmt.Printf("s is %#v\n", s)
 
 }

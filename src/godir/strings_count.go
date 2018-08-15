@@ -7,31 +7,29 @@ import (
 	"os"
 )
 
-var (
-	en_count    int
-	space_count int
-	num_count   int
-	other_count int
-)
+var countMaps map[string]int
 
 func statChar(str string) {
+	countMaps = make(map[string]int)
 	utf8Arr := []rune(str)
 	for _, v := range utf8Arr {
 		if v >= 'a' && v <= 'z' || v >= 'A' && v <= 'Z' {
-			en_count++
+			countMaps["en_count"]++
 			continue
 		}
 		if v == ' ' {
-			space_count++
+			countMaps["space_count"]++
 			continue
 		}
 		if v >= '0' && v <= '9' {
-			num_count++
+			countMaps["num_count"]++
 			continue
 		}
-		other_count++
+		countMaps["other_count"]++
 	}
-	fmt.Println(en_count, space_count, num_count, other_count)
+	for k, v := range countMaps {
+		fmt.Printf("The key is:%v The value is:%v\n", k, v)
+	}
 }
 
 func main() {

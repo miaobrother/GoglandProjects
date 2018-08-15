@@ -6,7 +6,7 @@ import (
 )
 
 type UserOne struct {
-	Id int
+	Id   int
 	Name string
 }
 
@@ -16,9 +16,8 @@ type Manager struct {
 }
 
 func main() {
-	m := Manager{UserOne{1,"zhangsan"},"lisi"}
+	m := Manager{UserOne{1, "zhangsan"}, "lisi"}
 	t := reflect.TypeOf(m)
 	//fmt.Printf("%#v\n",t.Field(1))
-	fmt.Printf("%#v\n",t.FieldByIndex([]int{0,1}))
+	fmt.Printf("%#v\n", t.FieldByIndex([]int{0, 1}))
 }
-

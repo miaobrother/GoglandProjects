@@ -2,10 +2,9 @@ package main
 
 import "fmt"
 
-
 type TZZ int
 
-func (tz *TZZ) Increase(num int)  {
+func (tz *TZZ) Increase(num int) {
 	*tz += TZZ(num)
 }
 

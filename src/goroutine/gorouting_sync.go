@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Hell(exi chan bool)  {
+func Hell(exi chan bool) {
 	fmt.Println("hello world")
 	exi <- true
 }

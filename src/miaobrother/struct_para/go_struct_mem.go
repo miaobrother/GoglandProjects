@@ -9,13 +9,11 @@ type Test struct {
 	d int32
 }
 
-
-
 func main() {
 	var t Test
-	fmt.Printf("The a addr is %p\n",&t.a)
-	fmt.Printf("The a addr is %p\n",&t.b)
-	fmt.Printf("The a addr is %p\n",&t.c)
-	fmt.Printf("The a addr is %p\n",&t.d)
+	fmt.Printf("The a addr is %p\n", &t.a)
+	fmt.Printf("The a addr is %p\n", &t.b)
+	fmt.Printf("The a addr is %p\n", &t.c)
+	fmt.Printf("The a addr is %p\n", &t.d)
 
 }

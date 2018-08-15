@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -7,17 +6,17 @@ import (
 )
 
 func main() {
-	ch :=  make(chan string)
+	ch := make(chan string)
 
 	go func() {
 		defer fmt.Println("子协程调用完毕")
-		for i := 0;i <2;i ++{
-			fmt.Println("子协程 i = ",i)
+		for i := 0; i < 2; i++ {
+			fmt.Println("子协程 i = ", i)
 			time.Sleep(time.Second)
 		}
 		ch <- "我是子协程,工作已经完毕"
 	}()
 
-	str := <- ch
-	fmt.Println("str = ",str)
+	str := <-ch
+	fmt.Println("str = ", str)
 }

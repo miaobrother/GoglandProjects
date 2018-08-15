@@ -7,8 +7,8 @@ import (
 
 type Student struct {
 	Name string
-	Age int
-	Sex string
+	Age  int
+	Sex  string
 }
 
 func main() {
@@ -25,11 +25,11 @@ func main() {
 		fmt.Printf("s is a float64\n")
 	case reflect.Struct:
 		fmt.Printf("s is a struct\n")
-		fmt.Printf("filed num of s is %d\n",t.NumField())
-		fmt.Printf("filed num of s is %d\n",v.NumField())
-		for i:= 0; i < v.NumField();i++{
+		fmt.Printf("filed num of s is %d\n", t.NumField())
+		fmt.Printf("filed num of s is %d\n", v.NumField())
+		for i := 0; i < v.NumField(); i++ {
 			filed := v.Field(i)
-			fmt.Printf("The s filed is : %v value is :%v\n",filed.Type(),filed.Interface())
+			fmt.Printf("The s filed is : %v value is :%v\n", filed.Type(), filed.Interface())
 		}
 	}
 }

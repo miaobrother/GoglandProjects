@@ -6,26 +6,27 @@ import (
 	"time"
 )
 
-func print()  {
-	for i := 0; i < 2; i ++{
+func print() {
+	for i := 0; i < 2; i++ {
 		fmt.Println(i)
 		time.Sleep(time.Second)
 	}
 }
+
 var ch = make(chan int)
 
-func sell(ch chan int)  {
-	for{
-		num := <- ch
-		fmt.Println("sell", num,"bread")
+func sell(ch chan int) {
+	for {
+		num := <-ch
+		fmt.Println("sell", num, "bread")
 	}
 }
 
-func produce(p chan int)  {
-	for{
+func produce(p chan int) {
+	for {
 		num := rand.Intn(10)
 		t := time.Duration(time.Duration(num))
-		fmt.Println("Product",num,"bread")
+		fmt.Println("Product", num, "bread")
 		ch <- num
 		time.Sleep(time.Second * t)
 	}

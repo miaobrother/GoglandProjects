@@ -5,17 +5,16 @@ import (
 )
 
 type People struct {
-	Name string
+	Name    string
 	Country string
 }
 
-func (p People)Print()  {//p 是People的实例
-	fmt.Printf("name = %s country s %s\n",p.Name,p.Country)
-
+func (p People) Print() { //p 是People的实例
+	fmt.Printf("name = %s country s %s\n", p.Name, p.Country)
 
 }
 
-func (p People)Set(name string,country string)  {
+func (p People) Set(name string, country string) {
 	p.Name = name
 	p.Country = country
 }
@@ -26,7 +25,6 @@ func main() {
 		Country: "China",
 	}
 	p1.Print()
-	p1.Set("people02","japen")
+	p1.Set("people02", "japen")
 	p1.Print()
 }
-

@@ -10,10 +10,10 @@ func main() {
 
 	// 解释正则表达式
 	reg := regexp.MustCompile(`\d+\.\d+`)
-	if reg == nil{
+	if reg == nil {
 		fmt.Println("存在异常 请检查")
 		return
 	}
-	res := reg.FindAllString(buf,-1)
-	fmt.Printf("The result is %v\n",res)
+	res := reg.FindAllString(buf, -1)
+	fmt.Printf("The result is %v\n", res)
 }

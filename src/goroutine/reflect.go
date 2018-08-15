@@ -6,16 +6,16 @@ import (
 )
 
 type UserTwo struct {
-	Id int
+	Id   int
 	Name string
 }
 
-func (u UserTwo) HelloWorld(name string)  {
-	fmt.Println("Hello ",name,"my name is ",u.Name)
+func (u UserTwo) HelloWorld(name string) {
+	fmt.Println("Hello ", name, "my name is ", u.Name)
 }
 
 func main() {
-	u := UserTwo{1,"chenmiao"}
+	u := UserTwo{1, "chenmiao"}
 	//u.HelloWorld("jack")
 	v := reflect.ValueOf(u)
 	mv := v.MethodByName("HelloWorld")

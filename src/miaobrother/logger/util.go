@@ -8,13 +8,13 @@ import (
 	"time"
 )
 
-type logData struct {//存储
-	Message  string
-	Time     string
-	LevelStr string
-	Filename string
-	FuncName string
-	LineNo   int
+type logData struct { //存储
+	Message      string
+	Time         string
+	LevelStr     string
+	Filename     string
+	FuncName     string
+	LineNo       int
 	WarnAndFatal bool
 }
 
@@ -43,15 +43,15 @@ func writeLog(level int, format string, args ...interface{}) *logData {
 	funcName = path.Base(funcName)
 	msg := fmt.Sprintf(format, args...)
 	logData := &logData{
-		Message:  msg,
-		Time:     nowStr,
-		LevelStr: levelStr,
-		Filename: fileName,
-		FuncName: funcName,
-		LineNo:   lineNo,
+		Message:      msg,
+		Time:         nowStr,
+		LevelStr:     levelStr,
+		Filename:     fileName,
+		FuncName:     funcName,
+		LineNo:       lineNo,
 		WarnAndFatal: false,
 	}
-	if level == LogLevelError || level == LogLevelWarn || level == LogLevelFatal{
+	if level == LogLevelError || level == LogLevelWarn || level == LogLevelFatal {
 		logData.WarnAndFatal = true
 	}
 	return logData

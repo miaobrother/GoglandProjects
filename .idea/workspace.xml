@@ -1,103 +1,773 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22628433-1d2a-4d86-979e-bb5d87d93a4a" name="Default" comment="The Add str、For func">
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/Integer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/append.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/arrays.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/make-slices.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/nil-slice.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/pointers.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/range-coun.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/range.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/reverse.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/slice-of.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/slices.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/sliecs-pointer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/slien-bounds.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/struct-fields.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/struct-pointers.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Advanced/struct.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/Good.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/defer-multi.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/defer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/if-and-else.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/if-with-a-short-statement.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/if.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/loop_functions.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/switch-env.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TourGo/Basic/switch.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Eight_Pointers/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Eight_Pointers/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Eight_Pointers/03/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Elevne_Switch/01_switch/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Elevne_Switch/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Elevne_Switch/03/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Elevne_Switch/04_on_type/type.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Five_Identifier/error_check/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/02/main/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/name.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/printer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/03/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/03/same.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Four_Scope/closure.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Nine/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Seven_Memory/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Seven_Memory/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Six_Constants/01_Constancts/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Six_Constants/02_Multiple/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Ten/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Ten/03/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Ten/04/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Ten/05/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Ten/05/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Thirteen_solutions/01/hello.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Thirteen_solutions/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Three_Variables/01_shorthand/01.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Three_Variables/02/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Three_Variables/var_zero/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Twelve_if_else/01/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Two_Package/icom/name2.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Two_Package/main/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/name.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverse.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverseTwo.go" />
+    <list default="true" id="22628433-1d2a-4d86-979e-bb5d87d93a4a" name="Default" comment="修改url拼接问题">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ex.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/go_test/gin_ex/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/go_test/struct_tag.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/RemoveArray.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/arithmetic.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/byOneby.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/api/api.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/api/error_code.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/book.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/book_mgr.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/student.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/student_mgr.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/ReadFile.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/abc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/goroutine_fatch.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/readbufio.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/rever_string.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/blance.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/random.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/round.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/alipay.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/pay.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/phone.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/wechat.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/reflect/reflect.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/police/download_image/get_oss_image.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/police/main.go" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/baseRefactoring.xml" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/diff.xml" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/vcs.xml" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/window.state.xml" />
       <change beforePath="$USER_HOME$/.bash_history" afterPath="$USER_HOME$/.bash_history" />
+      <change beforePath="$USER_HOME$/.bash_profile" afterPath="$USER_HOME$/.bash_profile" />
       <change beforePath="$USER_HOME$/.python_history" afterPath="$USER_HOME$/.python_history" />
+      <change beforePath="$USER_HOME$/.rediscli_history" afterPath="$USER_HOME$/.rediscli_history" />
+      <change beforePath="$USER_HOME$/.viminfo" afterPath="$USER_HOME$/.viminfo" />
+      <change beforePath="$PROJECT_DIR$/.idea/GoglandProjects.iml" afterPath="$PROJECT_DIR$/.idea/GoglandProjects.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/for_continued.go" afterPath="$PROJECT_DIR$/TourGo/Basic/for_continued.go" />
+      <change beforePath="$PROJECT_DIR$/Again/GAME/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Again/ReadFile/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Again/randarray/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/driver.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_One.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_Ticker.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_base64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_buf.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_chan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_chan_goroutine.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_const.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_defer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_dict.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_errors.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_expression.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_fmt.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_function.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_goroutine.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_interface.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_json.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_line.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_method.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_mutex.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_recursion.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_shaOne.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_sort.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_srot_ex.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_string_to_byte.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_strings.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_timeout.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_url.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_value.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/go_variable.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_Study/if_else.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_bookStack/conut_char.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_bookStack/index_in_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_bookStack/presuffix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_bookStack/random.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Go_bookStack/type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/Weather/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/api/api.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/book_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/student.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/student_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/arra.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/array_go.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/constants.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/defer_multi.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/digit" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/exported_name.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/functions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/go_for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/go_package.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/go_switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/if.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/if_advan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/len_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/multiple_results.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/nil.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/no_switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/pointer_go.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/pointer_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/rang_advan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/strings.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/struct_go.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tour/type_conversions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/123" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/456" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/547" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/Integer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/append.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/arrays.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/make-slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/nil-slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/pointers.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/range-coun.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/reverse.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slice-of.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/sliecs-pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slien-bounds.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct-fields.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct-pointers.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/Good.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/Pizza.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/bubble.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/constants.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/defer-multi.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/defer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/for_continued.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/function.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if-and-else.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if-with-a-short-statement.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/imports.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/inference.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/loop_functions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/multiple_results.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/named_results.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/numeric.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/packages.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/rect.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/short-variable.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/switch-env.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/type-conversions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/variables-with-initalizers.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/variables.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Basic/zero.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/basic_type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/const.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/exported-names.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/functions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/imports.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/multiple_results.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/name-res.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/numeric_constants.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/package.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/short_variables.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/type_conversions.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/type_interface.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/variables.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/variables_with_init.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/zero.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/defer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/defer_stack.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/for_continued.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/for_gos_while.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/if.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/short_statement.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/short_update.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/switch_condition.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/Control_flow/switch_order.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/dupOne.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/dupOneUpdate.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/buffer_chanel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/default_sel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/go_web.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/goroutines.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/mutex_counter.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/goroutine/range_and_close.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/interface/method_func.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/interface/method_pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/interface/methods.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/interface/methods_conti.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/mooc/countSubStr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/mooc/maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/mooc/sliceops.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/mooc/stringsRUNE.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/movie.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/append.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/exercise_maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/fib.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/function_closures.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/getAllUrl.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/getUrl.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/goInit_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/go_server.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/literal_struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/making_slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/map_literals.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/mutating_map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/nil_slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/range_update.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/slices_len_cap.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/slices_literals.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/slices_of_slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/slices_pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/struct_field.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TourGo/pointer/struct_pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/awesomeProject" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/async.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/code.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/conn.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/http.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/reflectlib.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/bin/server.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/lib/DomainXml.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/lib/MysqlMethod.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/lib/mysql.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/lib/public.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/lib/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/model/libvirtds.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/views/PublicMethod.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/views/libvirtdMigrate.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/views/libvirtd_api.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Data_Type" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/etcdpro.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/IPV4.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/MAP.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/Web.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/anon_struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/binary_search.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/buf.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/change_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/contain.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/defer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/dup.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/file.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/get_url.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/goroutine.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/goroutine_url.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/index_in_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/os_Stat.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/parc_pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/presuffix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/prior_struct_access.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/quota.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/random.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/strconv_studay.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/string_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/stringadd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/strings_splitjoin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/type_func.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/variable.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/init_json.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/para_regex.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/SubSlice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/buffer_channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/defer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/fib.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/goroutinue.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/interfaces.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/make_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/methods.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/nil_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/para_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/point.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/range_close_channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/reader.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/struct_filed.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/structs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/unit_Test/addorsub.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/unit_Test/addorsub_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/unit_Test/bench_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/unit_Test/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/unit_Test/unit_Test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/workerpool/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel_buf.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel_oper.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel_sync.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/close_channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/error.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/goroutines.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/interface.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/range_channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/select.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/select_Timeout.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/tickers.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Advanced/worker_Pools.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/closures.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/constant.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/function.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/ifElse.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/mulRetyrn.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/read.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/recursion.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/switch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/values.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/variables.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Example/Basic/variadicFun.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eight_Pointers/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eight_Pointers/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eight_Pointers/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/04/strSlice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/06/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/07/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Eighteen/08/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Elevne_Switch/01_switch/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Elevne_Switch/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Elevne_Switch/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Elevne_Switch/04_on_type/type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Fifteen/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Fifteen/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Fifteen/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Five_Identifier/error_check/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/04/callback.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/FourTeen/06/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/02/main/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/name.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/printer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/03/same.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Four_Scope/closure.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Nine/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/06/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/08/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/HashTable/09/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/addEntry/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/addEntry/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/NineTeen/nilMap/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/SevenTeen/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/SevenTeen/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/SevenTeen/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/SevenTeen/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/SevenTeen/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Seven_Memory/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Seven_Memory/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Six_Constants/01_Constancts/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Six_Constants/02_Multiple/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/05/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Ten/05/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Thirteen_solutions/01/hello.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Thirteen_solutions/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Three_Variables/01_shorthand/01.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Three_Variables/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Three_Variables/var_zero/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twelve_if_else/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/06/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/07/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/08/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Twenty/struct/09/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/assertion/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/assertion/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/assertion/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/assertion/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/empty_interface/07/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/interface/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/interface/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/interface/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/interface/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/package_sort/01/sortName.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/package_sort/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/package_sort/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyOne/package_sort/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/channel/int_channe/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/channel/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/goroutine/01/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/goroutine/02/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/goroutine/03/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/goroutine/04/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/TwentyTwo/goroutine/05/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Two_Package/icom/name2.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Two_Package/main/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/name.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverse.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverseTwo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/ReverseString.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/folatSum.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/paracalc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/proto.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/reflect.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_Web/xmlparse.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_atomic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_callback.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_channel_buffer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_channel_direction.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_channel_select.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_close_chan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_env.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_flag.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_fmt_time.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_int_par.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_length.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_line.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_mult_return_value.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_name.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_pointer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_process.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_process_init.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_rand.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_re.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_read_file.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_set.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_signal.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_sort.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_time.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_timer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_timestamp.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_work_pool.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go_write.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/go中文社区os.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/hello2.0.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/post_channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/go_parc/str.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/exampleOne.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/fibonaci.go" afterPath="$PROJECT_DIR$/leetcode/fibonaci.go" />
+      <change beforePath="$PROJECT_DIR$/leetcode/for.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/select.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/switch case.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/switch_type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/twoSum.go" afterPath="$PROJECT_DIR$/leetcode/twoSum.go" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/miaobrother/Day1/calc.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/miaobrother/Day1/hello.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Share/File_op/cli.go" afterPath="$PROJECT_DIR$/src/Share/File_op/cli.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/File_op/recive.go" afterPath="$PROJECT_DIR$/src/Share/File_op/recive.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/File_op/send.go" afterPath="$PROJECT_DIR$/src/Share/File_op/send.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/Go_scrapy/scrapy.go" afterPath="$PROJECT_DIR$/src/Share/Go_scrapy/scrapy.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/anony.go" afterPath="$PROJECT_DIR$/src/Share/OOP/anony.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_anynone_struct.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_anynone_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_copy.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_copy.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_file.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_file.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_interface.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_interface.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_method_oop.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_method_oop.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_oop_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_oop_method.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_pointer_struct.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_pointer_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_regexp.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_regexp.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_struct_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_struct_method.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/struct_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/struct_method.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/OOP/value_and_pointer_diff.go" afterPath="$PROJECT_DIR$/src/Share/OOP/value_and_pointer_diff.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/TCP/cli.go" afterPath="$PROJECT_DIR$/src/Share/TCP/cli.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/TCP/main.go" afterPath="$PROJECT_DIR$/src/Share/TCP/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatClient/clients.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatClient/clients.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatServer/server.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatServer/server.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/proto/proto.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/proto/proto.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Goroutine/gorotinue_wechat.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Goroutine/gorotinue_wechat.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/const_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/const_go.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_STR.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_STR.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_base64.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_base64.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_channel.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_channel.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_func.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_func.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_func_flow.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_func_flow.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_http.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_http.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_json.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_json.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_mysql.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_mysql.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_post_table.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_post_table.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_redis.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_redis.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_routine.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_routine.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_web.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_web.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/map_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/map_go.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/string_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/string_go.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/fibonacci_number.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/fibonacci_number.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/go_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/go_channel.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/go_channel_sync.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/go_channel_sync.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/no_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/no_channel.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/single_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/single_channel.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/timer_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/timer_channel.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/iniconfig/ini_config.go" afterPath="$PROJECT_DIR$/src/Share/iniconfig/ini_config.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/iniconfig/ini_config_test.go" afterPath="$PROJECT_DIR$/src/Share/iniconfig/ini_config_test.go" />
+      <change beforePath="$PROJECT_DIR$/src/Share/test_config_ini/main.go" afterPath="$PROJECT_DIR$/src/Share/test_config_ini/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/garage_new/views/user/index.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gin/main.go" afterPath="$PROJECT_DIR$/src/gin/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/godir/dup.go" afterPath="$PROJECT_DIR$/src/godir/dup.go" />
+      <change beforePath="$PROJECT_DIR$/src/godir/scanWorld.go" afterPath="$PROJECT_DIR$/src/godir/scanWorld.go" />
+      <change beforePath="$PROJECT_DIR$/src/godir/strings_count.go" afterPath="$PROJECT_DIR$/src/godir/strings_count.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/T_struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/T_struct_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/basic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/basic/arrays.go" afterPath="$PROJECT_DIR$/src/google/basic/arrays.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/basic/func.go" afterPath="$PROJECT_DIR$/src/google/basic/func.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/basic/struct.go" afterPath="$PROJECT_DIR$/src/google/basic/struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/channel/chan.go" afterPath="$PROJECT_DIR$/src/google/channel/chan.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/crawter/main.go" afterPath="$PROJECT_DIR$/src/google/crawter/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/filelistenserver/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/functional/addr/addr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/functional/addr/fib.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/regex/main.go" afterPath="$PROJECT_DIR$/src/google/regex/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/google/retriever/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/google/retriever/mock/mockretriver.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/app_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/app_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/chan.go" afterPath="$PROJECT_DIR$/src/goroutine/chan.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/client.go" afterPath="$PROJECT_DIR$/src/goroutine/client.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/clientVSserver.go" afterPath="$PROJECT_DIR$/src/goroutine/clientVSserver.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/get_tag.go" afterPath="$PROJECT_DIR$/src/goroutine/get_tag.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/goroutine.go" afterPath="$PROJECT_DIR$/src/goroutine/goroutine.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/gorouting_sync.go" afterPath="$PROJECT_DIR$/src/goroutine/gorouting_sync.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/httpserver.go" afterPath="$PROJECT_DIR$/src/goroutine/httpserver.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/index.html" afterPath="$PROJECT_DIR$/src/goroutine/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/int_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/int_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/interface.go" afterPath="$PROJECT_DIR$/src/goroutine/interface.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/json_to_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/json_to_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/logger.go" afterPath="$PROJECT_DIR$/src/goroutine/logger.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/main.go" afterPath="$PROJECT_DIR$/src/goroutine/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/md5.go" afterPath="$PROJECT_DIR$/src/goroutine/md5.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/producer.go" afterPath="$PROJECT_DIR$/src/goroutine/producer.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/reflect.go" afterPath="$PROJECT_DIR$/src/goroutine/reflect.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/reflectNew.go" afterPath="$PROJECT_DIR$/src/goroutine/reflectNew.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/reflect_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/reflect_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/server.go" afterPath="$PROJECT_DIR$/src/goroutine/server.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/singal_chan.go" afterPath="$PROJECT_DIR$/src/goroutine/singal_chan.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/slice_to_json.go" afterPath="$PROJECT_DIR$/src/goroutine/slice_to_json.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/struct_to_json.go" afterPath="$PROJECT_DIR$/src/goroutine/struct_to_json.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/struct_to_map.go" afterPath="$PROJECT_DIR$/src/goroutine/struct_to_map.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/targz_access.go" afterPath="$PROJECT_DIR$/src/goroutine/targz_access.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/template.go" afterPath="$PROJECT_DIR$/src/goroutine/template.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/time.go" afterPath="$PROJECT_DIR$/src/goroutine/time.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/time_chan.go" afterPath="$PROJECT_DIR$/src/goroutine/time_chan.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/typeof.go" afterPath="$PROJECT_DIR$/src/goroutine/typeof.go" />
+      <change beforePath="$PROJECT_DIR$/src/goroutine/valueof.go" afterPath="$PROJECT_DIR$/src/goroutine/valueof.go" />
+      <change beforePath="$PROJECT_DIR$/src/hello/hello" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/hello/hello.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/log_process/log_process.go" afterPath="$PROJECT_DIR$/src/log_process/log_process.go" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatClient/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatClient/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/conn_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/conn_mgr.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/server.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/server.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/proto/proto.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/proto/proto.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/calc/calc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/calc/calc_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/hello/hello.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/pipe/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/thread/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/work/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/binary.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/weibo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/const/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/controller/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/hostname/hostname.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/str/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/str/string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/time_mod/times.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/New_Comtent/array/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/homework/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/slice/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/time/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/api/api.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/book.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/book_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/student.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/student_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/HomeWork/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/animal/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/lambda/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/list/list.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/list/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/method/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/rect/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/struct/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/tag/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Four/point/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/bufio/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/file_reader/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/file_write/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/gzip_reader/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/osArgs/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/sort/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/stat/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/balance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/random.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/round.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/paracalc/paracalc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/alipay.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/pay.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/phone" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/phone.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/wechat.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/reflect/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/insert_Ari.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/insert_Ari.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/leetcode_Sum.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/leetcode_Sum.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/sum_array.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/sum_array.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/api.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/api.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/error_code.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/error_code.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book_mgr.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student_mgr.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/calc/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/calc/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/datetime/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/datetime/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/change_String.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/change_String.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/reverse_str.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/reverse_str.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/go_defer_stack.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/go_defer_stack.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/largest.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/largest.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_os/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_os/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_get_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_get_reflect.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_reflect.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_set_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_set_reflect.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/goroutine/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/goroutine/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/assert.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/assert.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/employer.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/employer.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/go_struct.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/go_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/json/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/json/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/log/console.go" afterPath="$PROJECT_DIR$/src/miaobrother/log/console.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/log/file.go" afterPath="$PROJECT_DIR$/src/miaobrother/log/file.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/console.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/console.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/constant.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/constant.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/file.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/file.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/util.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/util.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/map/student_info.go" afterPath="$PROJECT_DIR$/src/miaobrother/map/student_info.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/multiPlication/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/multiPlication/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/mysql/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/mysql/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/pointer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/pointer/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/goNarcissistic.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/goNarcissistic.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/go_count_string.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/go_count_string.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/string/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/string/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_inherit.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_inherit.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_method.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_method.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_mem.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_mem.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_point.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_point.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_tag.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_tag.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/tree/tree.go" afterPath="$PROJECT_DIR$/src/miaobrother/tree/tree.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/user_server/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/user_server/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/websocket/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/websocket/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/miaobrother/websocket/websocket.html" afterPath="$PROJECT_DIR$/src/miaobrother/websocket/websocket.html" />
+      <change beforePath="$PROJECT_DIR$/src/revert.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/sorter/src/algorithms/bubblesort/bubblesort.go" afterPath="$PROJECT_DIR$/src/sorter/src/algorithms/bubblesort/bubblesort.go" />
+      <change beforePath="$PROJECT_DIR$/src/sorter/src/sorter/sorter.go" afterPath="$PROJECT_DIR$/src/sorter/src/sorter/sorter.go" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/options/editor.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/editor.xml" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/options/usageView.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/usageView.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/colors.scheme.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/colors.scheme.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/dimensions.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/dimensions.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/feature.usage.statistics.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/feature.usage.statistics.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/filetypes.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/filetypes.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/find.recents.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/find.recents.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/jdk.table.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/jdk.table.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/options.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/options.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/other.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/other.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/packages.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/packages.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/project.default.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/project.default.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/proxy.settings.pwd" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/proxy.settings.pwd" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/recentProjectDirectories.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/recentProjectDirectories.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/runner.layout.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/runner.layout.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/statistics.application.usages.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/statistics.application.usages.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/window.manager.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/window.manager.xml" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.ActivityMonitor.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.ActivityMonitor.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.AddressBook.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.AddressBook.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.FontRegistry.user.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.FontRegistry.user.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.GEO.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.GEO.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.HIToolbox.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.HIToolbox.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2" afterPath="$USER_HOME$/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.Maps.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.Maps.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.Safari.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.Safari.plist" />
-      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.TMHelperAgent.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.TMHelperAgent.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.ServicesMenu.Services.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.ServicesMenu.Services.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.SystemProfiler.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.SystemProfiler.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.archiveutility.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.archiveutility.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.commerce.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.commerce.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.dock.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.dock.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.finder.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.finder.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.frameworks.diskimages.diuiagent.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.frameworks.diskimages.diuiagent.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.gamed.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.gamed.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.iCal.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.iCal.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.iTunes.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.iTunes.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.ids.service.com.apple.madrid.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.ids.service.com.apple.madrid.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.sms.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.sms.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.imessage.bag.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.imessage.bag.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.loginwindow.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.loginwindow.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.ncprefs.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.ncprefs.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.notificationcenterui.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.notificationcenterui.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.preferences.extensions.ShareMenu.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.preferences.extensions.ShareMenu.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.spaces.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.spaces.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.speech.voice.prefs.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.speech.voice.prefs.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.systemuiserver.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.systemuiserver.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.apple.talagent.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.talagent.plist" />
+      <change beforePath="$USER_HOME$/Library/Preferences/com.apple.universalaccess.plist" afterPath="$USER_HOME$/Library/Preferences/com.apple.universalaccess.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.parallels.Parallels Desktop Statistics.plist" afterPath="$USER_HOME$/Library/Preferences/com.parallels.Parallels Desktop Statistics.plist" />
       <change beforePath="$USER_HOME$/Library/Preferences/com.parallels.Parallels Desktop.plist" afterPath="$USER_HOME$/Library/Preferences/com.parallels.Parallels Desktop.plist" />
-      <change beforePath="$USER_HOME$/Library/Preferences/widget-com.apple.widget.weather.plist" afterPath="$USER_HOME$/Library/Preferences/widget-com.apple.widget.weather.plist" />
+      <change beforePath="$USER_HOME$/leetCode/.idea/workspace.xml" afterPath="$USER_HOME$/leetCode/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,15 +776,120 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GoglandProjects" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go_Training/Elevne_Switch/01_switch/main.go">
+      <file leaf-file-name="echo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/echo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#47#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rever_string.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/rever_string.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#14#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fatch_url.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/fatch_url.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#14#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goroutine_fatch.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/goroutine_fatch.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recur_string.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/recur_string.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#33#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadFile.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/ReadFile.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gin/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+              <folding>
+                <element signature="e#14#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readbufio.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/godir/readbufio.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings_count.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/godir/strings_count.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,16 +900,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LoginResponse</find>
+      <find>fileName</find>
+      <find>lastName</find>
+      <find>read from conn</find>
+      <find>read from</find>
+      <find>di</find>
+      <find>conn</find>
+      <find>ParseFromFile</find>
+      <find>*Message</find>
+      <find>系统</find>
+      <find>parsing</find>
+      <find>invalid syntax</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Again/GAME</dir>
+      <dir>$PROJECT_DIR$/TourGo/BasicForGo</dir>
+      <dir>$PROJECT_DIR$/github/study</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -144,7 +938,8 @@
         <option value="miaobrother &lt;zihao121908@gmail.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -152,57 +947,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TourGo/Advanced/struct-pointers.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/arrays.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/slices.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/sliecs-pointer.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/slien-bounds.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/nil-slice.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/make-slices.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/reverse.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/slice-of.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/append.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/range.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/range-coun.go" />
-        <option value="$PROJECT_DIR$/TourGo/Advanced/Integer.go" />
-        <option value="$PROJECT_DIR$/go_Training/stringutil/name.go" />
-        <option value="$PROJECT_DIR$/go_Training/icom/name2.go" />
-        <option value="$PROJECT_DIR$/go_Training/main/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/stringutil/reverseTwo.go" />
-        <option value="$PROJECT_DIR$/go_Training/stringutil/reverse.go" />
-        <option value="$PROJECT_DIR$/go_Training/Three_Variables/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Three_Variables/01_shorthand/01.go" />
-        <option value="$PROJECT_DIR$/go_Training/Three_Variables/var_zero/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/02/vis.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/printer.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/02/main/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/02/vis/name.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/closure.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/03/same.go" />
-        <option value="$PROJECT_DIR$/go_Training/Four_Scope/03/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Five_Identifier/error_check/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Six_Constants/01_Constancts/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Six_Constants/02_Multiple/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Seven_Memory/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Seven_Memory/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Eight_Pointers/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Eight_Pointers/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Eight_Pointers/03/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Nine/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/03/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/04/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/05/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Ten/05/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Elevne_Switch/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Elevne_Switch/03/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Elevne_Switch/04_on_type/type.go" />
-        <option value="$PROJECT_DIR$/go_Training/Twelve_if_else/01/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Thirteen_solutions/01/hello.go" />
-        <option value="$PROJECT_DIR$/go_Training/Thirteen_solutions/02/main.go" />
-        <option value="$PROJECT_DIR$/go_Training/Elevne_Switch/01_switch/main.go" />
+        <option value="$PROJECT_DIR$/leetcode/byOneby.go" />
+        <option value="$PROJECT_DIR$/leetcode/switch case.go" />
+        <option value="$PROJECT_DIR$/leetcode/bullsort.go" />
+        <option value="$PROJECT_DIR$/leetcode/select.go" />
+        <option value="$PROJECT_DIR$/Project_Go/five/struct.go" />
+        <option value="$PROJECT_DIR$/leetcode/arithmetic.go" />
+        <option value="$PROJECT_DIR$/go_test/内存布局.go" />
+        <option value="$PROJECT_DIR$/go_test/struct链表.go" />
+        <option value="$PROJECT_DIR$/go_test/really_struct.go" />
+        <option value="$PROJECT_DIR$/go_test/struct_tag.go" />
+        <option value="$PROJECT_DIR$/go_test/匿名字段.go" />
+        <option value="$PROJECT_DIR$/go_test/method.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/main.go" />
+        <option value="$PROJECT_DIR$/go_oss.go" />
+        <option value="$PROJECT_DIR$/src/goroutine/elem.go" />
+        <option value="$PROJECT_DIR$/go_test/gin_ex/main.go" />
+        <option value="$PROJECT_DIR$/src/police/get_oss_image.go" />
+        <option value="$PROJECT_DIR$/src/Share/advance_go/go_rpc.go" />
+        <option value="$PROJECT_DIR$/src/police/download_image/get_oss_image.go" />
+        <option value="$PROJECT_DIR$/src/police/main.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/logic/student.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/logic/student_mgr.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/logic/book.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/logic/book_mgr.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/api/error_code.go" />
+        <option value="$PROJECT_DIR$/src/bookmanger/api/api.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/pay.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/alipay.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/phone.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/wechat.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/main.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/blance/blance.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/blance/random.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/blance/round.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/blance/main.go" />
+        <option value="$PROJECT_DIR$/src/miaobrother/reflect/reflect.go" />
+        <option value="$PROJECT_DIR$/ex.go" />
+        <option value="$PROJECT_DIR$/leetcode/RemoveArray.go" />
+        <option value="$PROJECT_DIR$/src/godir/abc" />
+        <option value="$PROJECT_DIR$/src/godir/ReadFile.go" />
+        <option value="$PROJECT_DIR$/src/godir/echo.go" />
+        <option value="$PROJECT_DIR$/src/godir/dup.go" />
+        <option value="$PROJECT_DIR$/src/godir/fatch_url.go" />
+        <option value="$PROJECT_DIR$/src/godir/goroutine_fatch.go" />
+        <option value="$PROJECT_DIR$/src/godir/recur_string.go" />
+        <option value="$PROJECT_DIR$/src/godir/rever_string.go" />
+        <option value="$PROJECT_DIR$/src/godir/scanWorld.go" />
+        <option value="$PROJECT_DIR$/src/gin/main.go" />
+        <option value="$PROJECT_DIR$/src/godir/readbufio.go" />
+        <option value="$PROJECT_DIR$/src/godir/strings_count.go" />
       </list>
     </option>
   </component>
@@ -212,11 +1007,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,6 +1030,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,37 +1042,50 @@
             <path>
               <item name="GoglandProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoglandProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="go_Training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoglandProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoglandProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="go_Training" type="462c0819:PsiDirectoryNode" />
-              <item name="FourTeen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="godir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoglandProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="false" />
+    <property name="GO_FMT" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zhangyalei/GoglandProjects/go_Training/Twelve_if_else/01/main.go" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/github.com" />
+      <recent name="$PROJECT_DIR$/src/garage_new/static/css" />
+      <recent name="$PROJECT_DIR$/src/garage_new/views/user" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/go_Training/Two_Package" />
-      <recent name="$PROJECT_DIR$/Again" />
-      <recent name="$PROJECT_DIR$/src/miaobrother/Day3/homework" />
-      <recent name="$PROJECT_DIR$/src/MiaoBrother" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/police/download_image" />
+      <recent name="$PROJECT_DIR$/src/google/basic" />
+      <recent name="$PROJECT_DIR$/src/Share" />
+      <recent name="$PROJECT_DIR$/src/sorter/src/sorter" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,13 +1100,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build ex.go">
     <configuration name="go build calc.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoglandProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/miaobrother/Day1/calc/calc.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build ex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoglandProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ex.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -325,54 +1141,58 @@
       <filePath value="$PROJECT_DIR$/Again/slice/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="GoglandProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Again/GAME/main.go" />
+      <filePath value="$PROJECT_DIR$/src/google/maps.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build prime_num.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="GoglandProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_Training/Four_Scope/01/main.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/prime_num.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="BenchmarkLengthoOfSubStr in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="GoglandProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/src/google" />
       <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_Training/Ten/04/main.go" />
-      <directory value="$PROJECT_DIR$/" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="google" />
+      <pattern value="^BenchmarkLengthoOfSubStr$" />
     </configuration>
-    <configuration name="go build times.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="TestStreamErrors in decode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="GoglandProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/src/go-ethereum/rlp" />
       <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/miaobrother/Day2/time_mod/times.go" />
-      <directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-ethereum/rlp" />
+      <pattern value="^TestStreamErrors$" />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build calc.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build hello.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
       <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build times.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Build.go build main.go (3)" />
-      <item index="6" class="java.lang.String" itemvalue="Go Build.go build main.go (4)" />
-      <item index="7" class="java.lang.String" itemvalue="Go Build.go build main.go (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestStreamErrors in decode_test.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Build.go build prime_num.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Build.go build maps.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Test.BenchmarkLengthoOfSubStr in map_test.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Build.go build ex.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go (5)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build times.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build ex.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.BenchmarkLengthoOfSubStr in map_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build maps.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build prime_num.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestStreamErrors in decode_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +1203,12 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",Show package structure,Show Private Members,ALPHA_COMPARATOR,EXPORTABILITY_SORTER" />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TestHistory">
+    <history-entry file="TestStreamErrors_in_decode_test_go - 2018.04.03 at 11h 14m 16s.xml">
+      <configuration name="TestStreamErrors in decode_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -393,22 +1218,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="23" width="1280" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="728" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16962843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5040936" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14620355" sideWeight="0.8034188" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.43149605" sideWeight="0.5201939" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15270936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33680555" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35023773" sideWeight="0.49590644" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39749607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28593996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31811023" sideWeight="0.47980613" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39556962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13974153" sideWeight="0.1965812" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -419,12 +1243,48 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The Add str、For func" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Add str、For func" />
+    <MESSAGE value="Return average example" />
+    <MESSAGE value="Return 程序时间测量" />
+    <MESSAGE value="计数文件流中重复行数" />
+    <MESSAGE value="修改url拼接问题" />
+    <MESSAGE value="递归新玩法。" />
+    <MESSAGE value="浏览用户输入判断有多少单词" />
+    <MESSAGE value="utf8 格式统计终端输入数据." />
+    <option name="LAST_COMMIT_MESSAGE" value="utf8 格式统计终端输入数据." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -607,387 +1467,1103 @@
           <url>file://$PROJECT_DIR$/go_Training/Ten/04/main.go</url>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>3</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/NineTeen/HashTable/07/main.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go_Training/Twenty/struct/05/main.go</url>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/for_continued.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/Control_flow/short_update.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/range_update.go</url>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/exercise_maps.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/interface/method_pointer.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TourGo/pointer/getAllUrl.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Share/goroutine/gosehed.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/google/basic/maps.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/github.com/gopub/main.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/github/basic/quota.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/police/download_image/get_oss_image.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="213" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/sliecs-pointer.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/slices.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface{}/phone.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="184">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/slien-bounds.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface{}/alipay.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/nil-slice.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface{}/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="156">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/Integer">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface{}/wechat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface/employer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/mysql/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/append.go">
+    <entry file="file:///usr/local/go/src/math/rand/rand.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="130">
+          <caret line="325" column="5" lean-forward="false" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/range.go">
+    <entry file="file:///usr/local/go/src/strconv/atoi.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="130">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/slice-of.go">
+    <entry file="file:///usr/local/go/src/strconv/quote.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="130">
+          <caret line="123" column="5" lean-forward="false" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/reverse.go">
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="281">
+          <caret line="601" column="6" lean-forward="true" selection-start-line="601" selection-start-column="6" selection-end-line="601" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/make-slices.go">
+    <entry file="file:///usr/local/go/src/bufio/bufio.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="155">
+          <caret line="189" column="17" lean-forward="false" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/range-coun.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TourGo/Advanced/Integer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Two_Package/stringutil/name.go">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Two_Package/icom/name2.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/reflect/reflect.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Two_Package/main/main.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/tree/tree.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="956">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverse.go">
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/blance/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/blance/round.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/blance/random.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miaobrother/blance/blance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/method.go" />
+    <entry file="file://$PROJECT_DIR$/leetcode/prime_num.go" />
+    <entry file="file://$PROJECT_DIR$/leetcode/byOneby.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/02/vis.go" />
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/01/main.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/WeChat_Goroutine/gorotinue_wechat.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Three_Variables/var_zero/main.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/TCP/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="-619">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Three_Variables/01_shorthand/01.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/TCP/cli.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="153">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Two_Package/stringutil/reverseTwo.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/File_op/send.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-351">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Three_Variables/02/main.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/File_op/recive.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="-573">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/02/vis/name.go">
+    <entry file="file://$PROJECT_DIR$/src/Share/File_op/cli.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/02/main/main.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/twoSum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/02/vis/printer.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/RemoveArray.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/closure.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/arithmetic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/03/same.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/fibonaci.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Four_Scope/03/main.go">
+    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Five_Identifier/error_check/main.go">
+    <entry file="file:///usr/local/go/src/bufio/scan.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="137">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Six_Constants/01_Constancts/main.go">
+    <entry file="file://$PROJECT_DIR$/src/godir/abc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/fmt/scan.go">
+    <entry file="file://$PROJECT_DIR$/src/godir/dastFile" />
+    <entry file="file:///usr/local/go/src/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="202">
+          <caret line="818" column="5" lean-forward="false" selection-start-line="818" selection-start-column="5" selection-end-line="818" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Eight_Pointers/03/main.go">
+    <entry file="file:///usr/local/go/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="202">
+          <caret line="236" column="5" lean-forward="false" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Eight_Pointers/02/main.go">
+    <entry file="file://$PROJECT_DIR$/ex.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Eight_Pointers/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Nine/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/03/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/04/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/05/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Ten/05/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Seven_Memory/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Seven_Memory/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Six_Constants/02_Multiple/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Thirteen_solutions/01/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Elevne_Switch/04_on_type/type.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Elevne_Switch/03/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Elevne_Switch/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Thirteen_solutions/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Twelve_if_else/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go_Training/Elevne_Switch/01_switch/main.go">
+    <entry file="file://$PROJECT_DIR$/src/godir/recur_string.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#33#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/rever_string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/goroutine_fatch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/dup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/echo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/fatch_url.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.python_history">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/scanWorld.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/ReadFile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gin/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/readbufio.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/strings_count.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

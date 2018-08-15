@@ -41,12 +41,12 @@ func studentStore() {
 	stuMap[id] = val
 
 	fmt.Printf("stuMap:%#v\n", stuMap)
-	for i := 0;i <10;i ++{
-		val,ok := stuMap[i]
-		if !ok{
-			val = make(map[string]interface{},16)
+	for i := 0; i < 10; i++ {
+		val, ok := stuMap[i]
+		if !ok {
+			val = make(map[string]interface{}, 16)
 		}
-		val["name"] = fmt.Sprintf("stu%d",i)
+		val["name"] = fmt.Sprintf("stu%d", i)
 		val["id"] = id
 		val["score"] = rand.Intn(100)
 		val["age"] = rand.Intn(30)

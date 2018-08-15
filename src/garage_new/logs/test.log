@@ -1,0 +1,27 @@
+2018/05/06 18:07:43.120 [D] [main.go:25] service init succ 
+2018/05/06 18:07:43.125 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/05/06 18:09:38.685 [D] [main.go:25] service init succ 
+2018/05/06 18:09:38.690 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/05/06 18:09:50.488 [D] [server.go:2694] ::1 - - [06/May/2018 06:09:50] "POST /Postuser HTTP/1.1 200 0" 0.000938  PostmanRuntime/6.1.6
+
+2018/05/06 18:09:51.604 [D] [server.go:2694] ::1 - - [06/May/2018 06:09:51] "POST /Postuser HTTP/1.1 200 0" 0.000601  PostmanRuntime/6.1.6
+
+2018/05/06 18:09:52.446 [D] [server.go:2694] ::1 - - [06/May/2018 06:09:52] "POST /Postuser HTTP/1.1 200 0" 0.000565  PostmanRuntime/6.1.6
+
+2018/07/18 15:13:40.492 [D] [main.go:25] service init succ 
+2018/07/18 15:13:40.501 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/07/18 15:15:03.698 [D] [server.go:2694] ::1 - - [18/Jul/2018 03:15:03] "GET / HTTP/1.1 200 0" 0.002723  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/07/18 15:15:03.745 [D] [server.go:2694] ::1 - - [18/Jul/2018 03:15:03] "GET /static/js/reload.min.js HTTP/1.1 200 0" 0.001050 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/07/18 15:15:53.714 [D] [main.go:25] service init succ 
+2018/07/18 15:15:53.722 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/07/18 15:18:13.767 [D] [main.go:25] service init succ 
+2018/07/18 15:18:13.774 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/07/18 15:18:18.329 [D] [server.go:2694] ::1 - - [18/Jul/2018 03:18:18] "GET / HTTP/1.1 200 0" 0.002022  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/07/18 16:13:05.623 [D] [main.go:25] service init succ 
+2018/07/18 16:13:05.631 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/07/18 16:28:02.959 [D] [main.go:25] service init succ 
+2018/07/18 16:28:02.965 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/07/18 16:28:02.965 [I] [asm_amd64.s:2361] Admin server Running on :8088

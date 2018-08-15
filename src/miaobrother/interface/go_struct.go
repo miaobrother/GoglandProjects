@@ -12,6 +12,6 @@ type pipe struct {
 func main() {
 	var f fileOne
 	var p pipe
-	fmt.Printf("the f type is %T\n",f)
-	fmt.Printf("The p type is %T\n",p)
+	fmt.Printf("the f type is %T\n", f)
+	fmt.Printf("The p type is %T\n", p)
 }

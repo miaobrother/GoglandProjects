@@ -4,21 +4,21 @@ import (
 	"fmt"
 )
 
-func testPointer()  {
+func testPointer() {
 	var a int = 200
 	var b *int = &a
-	fmt.Printf("the b point value is: %v\n",*b)  //200
+	fmt.Printf("the b point value is: %v\n", *b) //200
 	*b = 1000
-	fmt.Println(&a,b)
+	fmt.Println(&a, b)
 }
 
-func modify(a *int)  {
+func modify(a *int) {
 	*a = 65
 }
-func testPointerOne()  {
+func testPointerOne() {
 	var b int = 10
 	p := &b
-	fmt.Printf("The p value before is:%v\n",*p)//10
+	fmt.Printf("The p value before is:%v\n", *p) //10
 	modify(p)
 	fmt.Println(b)
 }
@@ -27,15 +27,12 @@ func modifyInt(a int) {
 	a = 1000
 }
 
-func testmodifyInt()  {
+func testmodifyInt() {
 	var b int = 10
 
 	modifyInt(b)
-	fmt.Printf("b = %d\n",b)
+	fmt.Printf("b = %d\n", b)
 }
-
-
-
 
 func main() {
 	//var a int32

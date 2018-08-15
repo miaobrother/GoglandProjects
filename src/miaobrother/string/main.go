@@ -39,7 +39,7 @@ func calcCharCount() {
 	charCount, numCount, spaceCount, otherCount := calc(s)
 	fmt.Printf("The CharCount is :%d\n", charCount)
 	fmt.Printf("The CharCount is :%d\n", numCount)
-	fmt.Printf("The spaceCount is %d\n" ,spaceCount)
+	fmt.Printf("The spaceCount is %d\n", spaceCount)
 	fmt.Printf("The otherCount is %d\n", otherCount)
 
 	//calc(s)

@@ -8,7 +8,7 @@ const (
 	LogLevelError
 	LogLevelFatal
 )
-const(
+const (
 	LogSplitTypeHour = iota
 	LogSplitTypeSize
 )

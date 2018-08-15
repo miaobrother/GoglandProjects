@@ -5,32 +5,30 @@ import (
 	"sync"
 )
 
-type Book struct {//书籍的实体
-	BookId string
-	Name string
-	Num int
-	Author string
+type Book struct { //书籍的实体
+	BookId      string
+	Name        string
+	Num         int
+	Author      string
 	PublishDate int64
-	lock sync.Mutex
+	lock        sync.Mutex
 }
 
-
-
-func NewBook(bookId,name string,num int,author string,publishDate int64) (book *Book) {
+func NewBook(bookId, name string, num int, author string, publishDate int64) (book *Book) {
 	book = &Book{
-		BookId:bookId,
-		Name:name,
-		Num :num,
-		Author:author,
-		PublishDate:publishDate,
+		BookId:      bookId,
+		Name:        name,
+		Num:         num,
+		Author:      author,
+		PublishDate: publishDate,
 	}
 	return
 }
 
-func (b *Book) Borrow()(err error)  {
+func (b *Book) Borrow() (err error) {
 	b.lock.Lock()
 	defer b.lock.Unlock()
-	if b.Num <= 0{
+	if b.Num <= 0 {
 		err = errors.New("Book is not enough")
 		return
 	}
@@ -39,9 +37,7 @@ func (b *Book) Borrow()(err error)  {
 	return
 }
 
-
-
-func (b *Book) Back()(err error)  {
+func (b *Book) Back() (err error) {
 	b.lock.Lock()
 	defer b.lock.Unlock()
 }

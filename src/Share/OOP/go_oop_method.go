@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //普通相加函数
-func Add(a,b int) int  {
+func Add(a, b int) int {
 	return a + b
 }
 
@@ -11,18 +11,18 @@ func Add(a,b int) int  {
 
 type long int
 
-func (tmp long) AddTwo(other int) long  {
+func (tmp long) AddTwo(other int) long {
 	return tmp + long(other)
 }
-func main(){
+func main() {
 	//普通调用
 	var result int
-	result = Add(10,20)
-	fmt.Printf("The result is %d\n",result)
+	result = Add(10, 20)
+	fmt.Printf("The result is %d\n", result)
 
 	//定义一个变量
 	var tmp long = 2
 	//调用方法格式： 变量名.函数（参数）
 	re := tmp.AddTwo(3)
-	fmt.Printf("The result is %d\n",re)
+	fmt.Printf("The result is %d\n", re)
 }

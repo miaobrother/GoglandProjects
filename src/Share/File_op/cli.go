@@ -2,13 +2,13 @@ package main
 
 import (
 	//"fmt"
-	"net"
 	"log"
+	"net"
 )
 
 func main() {
-	conn,err := net.Dial("tcp","localhost:9911")
-	if err != nil{
+	conn, err := net.Dial("tcp", "localhost:9911")
+	if err != nil {
 		log.Fatal(err)
 		return
 	}

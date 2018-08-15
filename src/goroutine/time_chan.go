@@ -36,11 +36,10 @@ func main() {
 		i := <-t
 		if r != i {
 			fmt.Println("r bu等于 t", r, i)
-		}else {
-			fmt.Println("deng yu ",r ,i)
+		} else {
+			fmt.Println("deng yu ", r, i)
 			break
 		}
-
 
 	}
 

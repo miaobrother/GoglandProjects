@@ -14,7 +14,6 @@ func getInput() (string, error) { //读取用户输入的计算表达式
 	return reader.ReadString('\n')
 }
 
-
 func process(c *cli.Context) (err error) {
 	for {
 		express, _ := getInput()
@@ -74,11 +73,11 @@ func calc(postExpress []string) (result int64, err error) {
 			s.Push(cur)
 		}
 	}
-	resultStr,err := s.Top()
-	if err != nil{
+	resultStr, err := s.Top()
+	if err != nil {
 		return
 	}
-	result,err = strconv.ParseInt(resultStr,10,64)
+	result, err = strconv.ParseInt(resultStr, 10, 64)
 	return
 }
 

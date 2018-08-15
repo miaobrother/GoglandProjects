@@ -48,6 +48,7 @@ type MessageRequest struct {
 type MessageResponse struct {
 	ResponseBase
 }
+
 //前四个字节是  length
 //4个字节    cmdno
 //body : []byte
@@ -55,8 +56,8 @@ func ReadPackage(conn net.Conn) (body []byte, cmd int32, err error) {
 	var length int32
 	err = binary.Read(conn, binary.BigEndian, &length) //读取长度
 	if err != nil {
-		if err == io.EOF{
-			fmt.Printf(" di yi ge read from conn %v failed error is %v\n",conn, err)
+		if err == io.EOF {
+			fmt.Printf(" di yi ge read from conn %v failed error is %v\n", conn, err)
 			return
 		}
 		return
@@ -65,22 +66,22 @@ func ReadPackage(conn net.Conn) (body []byte, cmd int32, err error) {
 
 	err = binary.Read(conn, binary.BigEndian, &cmd) //  读取协议号
 	if err != nil {
-		if err != io.EOF{
-			fmt.Printf(" dier ge read from conn %v ,failed error is %v\n",conn, err)
+		if err != io.EOF {
+			fmt.Printf(" dier ge read from conn %v ,failed error is %v\n", conn, err)
 			return
 
 		}
 		return
 
 	}
-	fmt.Printf("read cmd succ:%d\n",length)
+	fmt.Printf("read cmd succ:%d\n", length)
 	//var pos int //初始 位置
 
 	var buf []byte = make([]byte, length)
 
 	_, err = io.ReadFull(conn, buf)
 	if err != nil {
-		if err == io.EOF{
+		if err == io.EOF {
 			fmt.Printf("Read body from conn %v, err:%v\n", conn, err)
 			return
 
@@ -121,7 +122,7 @@ func WritePackage(conn net.Conn, cmdno int32, body []byte) (err error) {
 		fmt.Println("Write lenght body failed: ", err)
 		return
 	}
-	fmt.Printf("write length succ:%d\n",length)
+	fmt.Printf("write length succ:%d\n", length)
 	err = binary.Write(conn, binary.BigEndian, cmdno)
 	if err != nil {
 		fmt.Printf("The write cmdno error is %v", err)

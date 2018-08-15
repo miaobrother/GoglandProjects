@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	//"net/http"
+	"io"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
-	"io"
 )
 
 func SpiderPage(i int, page chan int) {

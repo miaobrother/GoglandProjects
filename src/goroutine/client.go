@@ -6,17 +6,16 @@ import (
 	"net/http"
 )
 
-
 func main() {
-	res,err := http.Get("http://www.usnoon.com")
-	if err != nil{
-		fmt.Println("get err:",err)
+	res, err := http.Get("http://www.usnoon.com")
+	if err != nil {
+		fmt.Println("get err:", err)
 		return
 	}
 
-	data,err := ioutil.ReadAll(res.Body)
-	if err != nil{
-		fmt.Println("get data err:",err)
+	data, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		fmt.Println("get data err:", err)
 		return
 	}
 	fmt.Println(string(data))

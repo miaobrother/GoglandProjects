@@ -8,14 +8,14 @@ import (
 )
 
 func main() {
-
-	const input = "i love you "
+	const input  = "i love you "
 	in := bufio.NewScanner(strings.NewReader(input))
 	in.Split(bufio.ScanWords)
 	count := 0
 	for in.Scan() {
 		count++
 	}
+
 
 	if err := in.Err(); err != nil {
 		fmt.Fprintln(os.Stderr, "reading input:", err)

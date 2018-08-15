@@ -19,7 +19,7 @@ func Process(conn net.Conn) { // 处理客户端发来的消息
 	for {
 		body, cmd, err := proto.ReadPackage(conn)
 		if err != nil {
-			if err != io.EOF{
+			if err != io.EOF {
 				fmt.Printf("The conn is %v error is %v\n", conn, err)
 				return
 

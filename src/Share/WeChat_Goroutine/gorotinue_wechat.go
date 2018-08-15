@@ -36,7 +36,7 @@ func WriteMsgToClient(cli Client, conn net.Conn) {
 	}
 }
 func MakeMsg(cli Client, msg string) (buf string) {
-	buf = "[" + cli.Addr + "]" + cli.Name + ": login succ" +":" +msg
+	buf = "[" + cli.Addr + "]" + cli.Name + ": login succ" + ":" + msg
 	return
 }
 func HandleConn(conn net.Conn) { //处理用户连接
@@ -51,7 +51,7 @@ func HandleConn(conn net.Conn) { //处理用户连接
 	go WriteMsgToClient(cli, conn)
 	//广播某个在线
 	//message <- "[" +cli.Addr +"]"+ cli.Name +": login succ"
-	message <- MakeMsg(cli,"login")
+	message <- MakeMsg(cli, "login")
 	//创建一个匿名函数，接收用户发送过来的数据
 	go func() {
 		buf := make([]byte, 1024*2)
@@ -63,22 +63,22 @@ func HandleConn(conn net.Conn) { //处理用户连接
 				return
 			}
 			msg := string(buf[:n-1])
-			if len(msg) == 3 && msg == "who"{
+			if len(msg) == 3 && msg == "who" {
 				//遍历map，给当前用户发送所有成员
 				conn.Write([]byte("user list:\n"))
-				for _,tmp  := range onlineMap{
+				for _, tmp := range onlineMap {
 					msg = tmp.Addr + ":" + tmp.Name + "\n"
 					conn.Write([]byte(msg))
 				}
 
-			}else {
+			} else {
 				//转发内容
-				message <- MakeMsg(cli,msg)
+				message <- MakeMsg(cli, msg)
 			}
 			//message <- MakeMsg(cli, msg)
 		}
 	}()
-	for{
+	for {
 
 	}
 }

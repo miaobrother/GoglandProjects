@@ -5,17 +5,17 @@ import (
 	"fmt"
 )
 
-func producer(out chan <- int)  {//只写channel
-	for i := 0;i < 10;i ++{
-		out <- i*i
+func producer(out chan<- int) { //只写channel
+	for i := 0; i < 10; i++ {
+		out <- i * i
 	}
 	close(out)
 
 }
 
-func consumer(in <- chan int)  {//只读channel
+func consumer(in <-chan int) { //只读channel
 	for num := range in {
-		fmt.Println("num = ",num)
+		fmt.Println("num = ", num)
 	}
 }
 
@@ -24,5 +24,5 @@ func main() {
 
 	go producer(ch)
 
-	consumer(ch)//主协程 先执行
+	consumer(ch) //主协程 先执行
 }

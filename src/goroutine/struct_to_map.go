@@ -8,13 +8,13 @@ import (
 
 type UserSix struct {
 	UserName string `json:"user_name"`
-	Age int
-	Sex string
+	Age      int
+	Sex      string
 }
 
 /*
 map to  json
- */
+*/
 
 func TMap() {
 	var m map[string]interface{}
@@ -23,12 +23,12 @@ func TMap() {
 	m["user_name"] = "zhangsan"
 	m["age"] = 19
 	m["sex"] = "男"
-	data ,err := json.Marshal(m)
-	if err != nil{
+	data, err := json.Marshal(m)
+	if err != nil {
 		log.Fatal(err)
 		return
 	}
-	fmt.Printf("%s\n",data)
+	fmt.Printf("%s\n", data)
 }
 
 func main() {
