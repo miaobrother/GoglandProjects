@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22628433-1d2a-4d86-979e-bb5d87d93a4a" name="Default" comment="修改url拼接问题">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ex.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_test/gin_ex/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/go_test/struct_tag.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/RemoveArray.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/arithmetic.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/byOneby.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/api/api.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/api/error_code.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/book.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/book_mgr.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/student.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bookmanger/logic/student_mgr.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/ReadFile.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/abc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/goroutine_fatch.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/readbufio.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/rever_string.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/blance.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/random.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/blance/round.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/alipay.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/pay.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/phone.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/interface{}/wechat.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/miaobrother/reflect/reflect.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/police/download_image/get_oss_image.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/police/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/godir/rune.go" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/baseRefactoring.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/diff.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/vcs.xml" />
@@ -40,12 +12,7 @@
       <change beforePath="$USER_HOME$/.python_history" afterPath="$USER_HOME$/.python_history" />
       <change beforePath="$USER_HOME$/.rediscli_history" afterPath="$USER_HOME$/.rediscli_history" />
       <change beforePath="$USER_HOME$/.viminfo" afterPath="$USER_HOME$/.viminfo" />
-      <change beforePath="$PROJECT_DIR$/.idea/GoglandProjects.iml" afterPath="$PROJECT_DIR$/.idea/GoglandProjects.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Again/GAME/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Again/ReadFile/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Again/randarray/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Go_Study/driver.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Go_Study/go_One.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Go_Study/go_Ticker.go" afterPath="" />
@@ -93,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/book_mgr.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/student.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Project_Go/bookMgr/logic/student_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Project_Go/five/struct.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Tour/arra.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Tour/array_go.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Tour/constants.go" afterPath="" />
@@ -121,50 +89,6 @@
       <change beforePath="$PROJECT_DIR$/TourGo/123" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TourGo/456" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TourGo/547" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/Integer.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/append.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/arrays.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/make-slices.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/nil-slice.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/pointers.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/range-coun.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/range.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/reverse.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slice-of.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slices.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/sliecs-pointer.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/slien-bounds.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct-fields.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct-pointers.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Advanced/struct.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/Good.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/Pizza.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/bubble.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/constants.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/defer-multi.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/defer.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/for.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/for_continued.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/function.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if-and-else.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if-with-a-short-statement.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/if.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/imports.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/inference.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/loop_functions.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/multiple_results.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/named_results.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/numeric.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/packages.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/rect.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/short-variable.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/struct.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/switch-env.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/switch.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/type-conversions.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/variables-with-initalizers.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/variables.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TourGo/Basic/zero.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/basic_type.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/const.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TourGo/BasicForGo/exported-names.go" afterPath="" />
@@ -279,7 +203,7 @@
       <change beforePath="$PROJECT_DIR$/github/basic/quota.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/random.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/range.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/github/basic/slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/basic/se.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/strconv_studay.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/string_slice.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/stringadd.go" afterPath="" />
@@ -287,13 +211,28 @@
       <change beforePath="$PROJECT_DIR$/github/basic/struct.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/type_func.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/basic/variable.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/login.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/47.93.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/camannd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/copyfile.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/free_weather.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/goexit.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/goproexs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/goroutine.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/gosched.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/regex/init_json.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/regex/para_regex.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/readFile.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/timer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/竞争.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/regex/继承.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/11111.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/SubSlice.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/array.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/buffer_channel.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/study/default_select.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/defer.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/fib.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/study/goroutinue.go" afterPath="" />
@@ -316,6 +255,8 @@
       <change beforePath="$PROJECT_DIR$/github/unit_Test/bench_test.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/unit_Test/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/unit_Test/unit_Test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/upload.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/github/web.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/github/workerpool/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/go_Example/Advanced/channel_buf.go" afterPath="" />
@@ -495,228 +436,30 @@
       <change beforePath="$PROJECT_DIR$/go_parc/post_channel.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/go_parc/str.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/hello.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/123.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/leetcode/exampleOne.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/leetcode/fibonaci.go" afterPath="$PROJECT_DIR$/leetcode/fibonaci.go" />
       <change beforePath="$PROJECT_DIR$/leetcode/for.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/leetcode/select.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/leetcode/switch case.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/leetcode/switch_type.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/leetcode/twoSum.go" afterPath="$PROJECT_DIR$/leetcode/twoSum.go" />
       <change beforePath="$PROJECT_DIR$/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/miaobrother/Day1/calc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/miaobrother/Day1/hello.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Share/File_op/cli.go" afterPath="$PROJECT_DIR$/src/Share/File_op/cli.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/File_op/recive.go" afterPath="$PROJECT_DIR$/src/Share/File_op/recive.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/File_op/send.go" afterPath="$PROJECT_DIR$/src/Share/File_op/send.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/Go_scrapy/scrapy.go" afterPath="$PROJECT_DIR$/src/Share/Go_scrapy/scrapy.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/anony.go" afterPath="$PROJECT_DIR$/src/Share/OOP/anony.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_anynone_struct.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_anynone_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_copy.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_copy.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_file.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_file.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_interface.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_interface.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_method_oop.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_method_oop.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_oop_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_oop_method.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_pointer_struct.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_pointer_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_regexp.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_regexp.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/go_struct_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/go_struct_method.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/struct_method.go" afterPath="$PROJECT_DIR$/src/Share/OOP/struct_method.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/OOP/value_and_pointer_diff.go" afterPath="$PROJECT_DIR$/src/Share/OOP/value_and_pointer_diff.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/TCP/cli.go" afterPath="$PROJECT_DIR$/src/Share/TCP/cli.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/TCP/main.go" afterPath="$PROJECT_DIR$/src/Share/TCP/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatClient/clients.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatClient/clients.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatServer/server.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/ChatServer/server.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Ali/proto/proto.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Ali/proto/proto.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/WeChat_Goroutine/gorotinue_wechat.go" afterPath="$PROJECT_DIR$/src/Share/WeChat_Goroutine/gorotinue_wechat.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/const_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/const_go.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_STR.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_STR.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_base64.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_base64.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_channel.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_channel.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_func.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_func.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_func_flow.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_func_flow.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_http.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_http.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_json.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_json.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_mysql.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_mysql.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_post_table.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_post_table.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_redis.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_redis.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_routine.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_routine.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/go_web.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/go_web.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/map_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/map_go.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/basic_go/string_go.go" afterPath="$PROJECT_DIR$/src/Share/basic_go/string_go.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/fibonacci_number.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/fibonacci_number.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/go_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/go_channel.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/go_channel_sync.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/go_channel_sync.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/no_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/no_channel.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/single_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/single_channel.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/goroutine/timer_channel.go" afterPath="$PROJECT_DIR$/src/Share/goroutine/timer_channel.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/iniconfig/ini_config.go" afterPath="$PROJECT_DIR$/src/Share/iniconfig/ini_config.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/iniconfig/ini_config_test.go" afterPath="$PROJECT_DIR$/src/Share/iniconfig/ini_config_test.go" />
-      <change beforePath="$PROJECT_DIR$/src/Share/test_config_ini/main.go" afterPath="$PROJECT_DIR$/src/Share/test_config_ini/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/bookmanger/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/garage_new/views/user/index.tpl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gin/main.go" afterPath="$PROJECT_DIR$/src/gin/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/godir/dup.go" afterPath="$PROJECT_DIR$/src/godir/dup.go" />
-      <change beforePath="$PROJECT_DIR$/src/godir/scanWorld.go" afterPath="$PROJECT_DIR$/src/godir/scanWorld.go" />
-      <change beforePath="$PROJECT_DIR$/src/godir/strings_count.go" afterPath="$PROJECT_DIR$/src/godir/strings_count.go" />
+      <change beforePath="$PROJECT_DIR$/src/github.com" afterPath="$PROJECT_DIR$/src/github.com" />
+      <change beforePath="$PROJECT_DIR$/src/golang.org/x/net" afterPath="$PROJECT_DIR$/src/golang.org/x/net" />
       <change beforePath="$PROJECT_DIR$/src/google/T_struct.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/google/T_struct_test.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/google/basic.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/google/basic/arrays.go" afterPath="$PROJECT_DIR$/src/google/basic/arrays.go" />
-      <change beforePath="$PROJECT_DIR$/src/google/basic/func.go" afterPath="$PROJECT_DIR$/src/google/basic/func.go" />
-      <change beforePath="$PROJECT_DIR$/src/google/basic/struct.go" afterPath="$PROJECT_DIR$/src/google/basic/struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/google/channel/chan.go" afterPath="$PROJECT_DIR$/src/google/channel/chan.go" />
-      <change beforePath="$PROJECT_DIR$/src/google/crawter/main.go" afterPath="$PROJECT_DIR$/src/google/crawter/main.go" />
       <change beforePath="$PROJECT_DIR$/src/google/filelistenserver/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/google/functional/addr/addr.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/google/functional/addr/fib.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/google/regex/main.go" afterPath="$PROJECT_DIR$/src/google/regex/main.go" />
       <change beforePath="$PROJECT_DIR$/src/google/retriever/main.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/google/retriever/mock/mockretriver.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/app_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/app_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/chan.go" afterPath="$PROJECT_DIR$/src/goroutine/chan.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/client.go" afterPath="$PROJECT_DIR$/src/goroutine/client.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/clientVSserver.go" afterPath="$PROJECT_DIR$/src/goroutine/clientVSserver.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/get_tag.go" afterPath="$PROJECT_DIR$/src/goroutine/get_tag.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/goroutine.go" afterPath="$PROJECT_DIR$/src/goroutine/goroutine.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/gorouting_sync.go" afterPath="$PROJECT_DIR$/src/goroutine/gorouting_sync.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/httpserver.go" afterPath="$PROJECT_DIR$/src/goroutine/httpserver.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/index.html" afterPath="$PROJECT_DIR$/src/goroutine/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/int_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/int_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/interface.go" afterPath="$PROJECT_DIR$/src/goroutine/interface.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/json_to_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/json_to_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/logger.go" afterPath="$PROJECT_DIR$/src/goroutine/logger.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/main.go" afterPath="$PROJECT_DIR$/src/goroutine/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/md5.go" afterPath="$PROJECT_DIR$/src/goroutine/md5.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/producer.go" afterPath="$PROJECT_DIR$/src/goroutine/producer.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/reflect.go" afterPath="$PROJECT_DIR$/src/goroutine/reflect.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/reflectNew.go" afterPath="$PROJECT_DIR$/src/goroutine/reflectNew.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/reflect_struct.go" afterPath="$PROJECT_DIR$/src/goroutine/reflect_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/server.go" afterPath="$PROJECT_DIR$/src/goroutine/server.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/singal_chan.go" afterPath="$PROJECT_DIR$/src/goroutine/singal_chan.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/slice_to_json.go" afterPath="$PROJECT_DIR$/src/goroutine/slice_to_json.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/struct_to_json.go" afterPath="$PROJECT_DIR$/src/goroutine/struct_to_json.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/struct_to_map.go" afterPath="$PROJECT_DIR$/src/goroutine/struct_to_map.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/targz_access.go" afterPath="$PROJECT_DIR$/src/goroutine/targz_access.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/template.go" afterPath="$PROJECT_DIR$/src/goroutine/template.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/time.go" afterPath="$PROJECT_DIR$/src/goroutine/time.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/time_chan.go" afterPath="$PROJECT_DIR$/src/goroutine/time_chan.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/typeof.go" afterPath="$PROJECT_DIR$/src/goroutine/typeof.go" />
-      <change beforePath="$PROJECT_DIR$/src/goroutine/valueof.go" afterPath="$PROJECT_DIR$/src/goroutine/valueof.go" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/natefinch/lumberjack.v2" afterPath="$PROJECT_DIR$/src/gopkg.in/natefinch/lumberjack.v2" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2" />
       <change beforePath="$PROJECT_DIR$/src/hello/hello" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/hello/hello.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/log_process/log_process.go" afterPath="$PROJECT_DIR$/src/log_process/log_process.go" />
       <change beforePath="$PROJECT_DIR$/src/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatClient/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatClient/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/conn_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/conn_mgr.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/server.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/chatServer/server.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Chat/proto/proto.go" afterPath="$PROJECT_DIR$/src/miaobrother/Chat/proto/proto.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/calc/calc.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/calc/calc_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/hello/hello.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/pipe/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/thread/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day1/work/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/binary.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/Data_Type/weibo.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/const/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/controller/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/hostname/hostname.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/str/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/str/string.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day2/time_mod/times.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/New_Comtent/array/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/homework/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/slice/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Day3/time/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/api/api.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/book.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/book_mgr.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/student.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/Book_Mgr/logic/student_mgr.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/HomeWork/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/animal/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/lambda/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/list/list.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/list/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/method/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/rect/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/struct/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Fifv/tag/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Four/point/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/bufio/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/file_reader/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/file_write/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/gzip_reader/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/osArgs/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/sort/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Seven/stat/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/balance.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/random.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/balance/round.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/paracalc/paracalc.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/alipay.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/pay.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/phone" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/phone.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/phone/wechat.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/Six/reflect/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/insert_Ari.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/insert_Ari.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/leetcode_Sum.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/leetcode_Sum.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/arithmetic/sum_array.go" afterPath="$PROJECT_DIR$/src/miaobrother/arithmetic/sum_array.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/api.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/api.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/error_code.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/api/error_code.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/book_mgr.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student_mgr.go" afterPath="$PROJECT_DIR$/src/miaobrother/bookMgr/logic/student_mgr.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/calc/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/calc/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/datetime/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/datetime/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/change_String.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/change_String.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/file_read/reverse_str.go" afterPath="$PROJECT_DIR$/src/miaobrother/file_read/reverse_str.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/go_defer_stack.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/go_defer_stack.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/largest.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/largest.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_defer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_defer/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_os/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_os/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_get_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_get_reflect.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_reflect.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_set_reflect.go" afterPath="$PROJECT_DIR$/src/miaobrother/go_reflect/struct_set_reflect.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/goroutine/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/goroutine/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/assert.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/assert.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/employer.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/employer.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/interface/go_struct.go" afterPath="$PROJECT_DIR$/src/miaobrother/interface/go_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/json/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/json/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/log/console.go" afterPath="$PROJECT_DIR$/src/miaobrother/log/console.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/log/file.go" afterPath="$PROJECT_DIR$/src/miaobrother/log/file.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/console.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/console.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/constant.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/constant.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/file.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/file.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/logger/util.go" afterPath="$PROJECT_DIR$/src/miaobrother/logger/util.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/map/student_info.go" afterPath="$PROJECT_DIR$/src/miaobrother/map/student_info.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/multiPlication/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/multiPlication/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/mysql/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/mysql/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/pointer/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/pointer/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/goNarcissistic.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/goNarcissistic.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/go_count_string.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/go_count_string.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/prime/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/prime/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/string/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/string/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_inherit.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_inherit.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_method.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_method.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_mem.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_mem.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_point.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_point.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_tag.go" afterPath="$PROJECT_DIR$/src/miaobrother/struct_para/go_struct_tag.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/tree/tree.go" afterPath="$PROJECT_DIR$/src/miaobrother/tree/tree.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/user_server/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/user_server/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/websocket/main.go" afterPath="$PROJECT_DIR$/src/miaobrother/websocket/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/miaobrother/websocket/websocket.html" afterPath="$PROJECT_DIR$/src/miaobrother/websocket/websocket.html" />
-      <change beforePath="$PROJECT_DIR$/src/revert.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sorter/src/algorithms/bubblesort/bubblesort.go" afterPath="$PROJECT_DIR$/src/sorter/src/algorithms/bubblesort/bubblesort.go" />
-      <change beforePath="$PROJECT_DIR$/src/sorter/src/sorter/sorter.go" afterPath="$PROJECT_DIR$/src/sorter/src/sorter/sorter.go" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/editor.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/editor.xml" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/usageView.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/usageView.xml" />
       <change beforePath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/colors.scheme.xml" afterPath="$USER_HOME$/Library/Preferences/PyCharm2016.2/options/colors.scheme.xml" />
@@ -839,16 +582,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReadFile.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/godir/ReadFile.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -883,13 +616,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings_count.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strings_count.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/godir/strings_count.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="235">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="e#14#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rune.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/godir/rune.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -947,7 +692,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/byOneby.go" />
         <option value="$PROJECT_DIR$/leetcode/switch case.go" />
         <option value="$PROJECT_DIR$/leetcode/bullsort.go" />
         <option value="$PROJECT_DIR$/leetcode/select.go" />
@@ -998,6 +742,7 @@
         <option value="$PROJECT_DIR$/src/gin/main.go" />
         <option value="$PROJECT_DIR$/src/godir/readbufio.go" />
         <option value="$PROJECT_DIR$/src/godir/strings_count.go" />
+        <option value="$PROJECT_DIR$/src/godir/rune.go" />
       </list>
     </option>
   </component>
@@ -1007,7 +752,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="154" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="728" />
@@ -1218,17 +964,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="728" extended-state="1" />
+    <frame x="154" y="23" width="1280" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14620355" sideWeight="0.8034188" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.43149605" sideWeight="0.5201939" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48341233" sideWeight="0.52342486" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28593996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28503937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31811023" sideWeight="0.47980613" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48341233" sideWeight="0.4765751" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39556962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13974153" sideWeight="0.1965812" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1276,6 +1023,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/github.com" />
+      <path value="$PROJECT_DIR$/src/go-ethereum" />
+    </ignored-roots>
     <MESSAGE value="The Add str、For func" />
     <MESSAGE value="Return average example" />
     <MESSAGE value="Return 程序时间测量" />
@@ -2184,13 +1935,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/miaobrother/interface{}/phone.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -2542,10 +2286,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/godir/strings_count.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="235">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/godir/rune.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
