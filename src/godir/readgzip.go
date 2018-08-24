@@ -34,7 +34,7 @@ func main() {
 			log.Fatalf("Got a error is:", err)
 			return
 		}
-		fmt.Printf("The line is :%v\n", strings.NewReader(line))
+		fmt.Printf("The line is :%v\n", strings.Replace(line,"\n","",-1))
 
 	}
 
