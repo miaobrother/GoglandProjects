@@ -23,6 +23,14 @@ func main() {
 		return
 	}
 
+
+	err = InitEtcd(appConfig.etcdAddr,appConfig.etcdKey)
+	if err !=nil{
+		logs.Error("got an error:",err)
+		return
+	}
+	fmt.Println("init etcd success...")
+
 	err = tailf.InitTail(appConfig.collConf, appConfig.chanSize)
 	if err != nil {
 		logs.Error("init tailf failed,err is :%v\n", err)

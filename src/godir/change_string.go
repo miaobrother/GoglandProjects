@@ -11,10 +11,10 @@ import (
 func main() {
 	//string to  int
 
-	str := "30k"
+	str := "30kk"
 	intValue ,_ := strconv.Atoi(str)
 	fmt.Println(reflect.TypeOf(intValue))//利用反射看intValue的类型
-	//fmt.Println(reflect.ValueOf(intValue))
+	fmt.Println("The valueof:",reflect.ValueOf(intValue))
 
 	//string to int64
 
@@ -27,7 +27,7 @@ func main() {
 
 	intTmp := 100
 	strTmp := strconv.Itoa(intTmp)
-	fmt.Printf("The strTmp type is %#v\n",strTmp)
+	fmt.Printf("The strTmp type is :%T\n",strTmp)
 
 
 

@@ -17,6 +17,8 @@ type Config struct {
 	chanSize int
 	kafka    string
 	collConf []tailf.CollConf
+	etcdAddr string
+	etcdKey string
 }
 
 func loadCollectConf(conf config.Configer) (err error) {
@@ -63,6 +65,16 @@ func LoadConf(confType, filename string) (err error) { //加载配置文件中se
 	appConfig.kafka = conf.String("kafka::ip_port")
 	if len(appConfig.kafka) == 0 {
 		fmt.Println("wuxiao de kafka peizhi")
+	}
+
+	appConfig.etcdAddr = conf.String("etcd::addr")
+	if len(appConfig.etcdAddr) == 0 {
+		fmt.Println("wuxiao de etcd peizhi")
+	}
+
+	appConfig.etcdKey = conf.String("etcd::configKey")
+	if len(appConfig.etcdKey) == 0 {
+		fmt.Println("wuxiao de etcdkey peizhi")
 	}
 
 	err = loadCollectConf(conf)
