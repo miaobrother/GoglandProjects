@@ -90,5 +90,33 @@ func main() {
 			})
 		}
 	})
+
+	r.GET("/moreJSON", func(c *gin.Context) {
+		type Msgmsg struct{
+			Name string `json:"user"`
+			Message string
+			Number int
+		}
+		var Msg Msgmsg
+		Msg.Name = "zhangsan"
+		Msg.Message = "hello zhangsana"
+		Msg.Number = 100
+		c.JSON(http.StatusOK,Msg)
+	})
+
+	r.GET("/someXML", func(c *gin.Context) {
+		type xmlMsg struct{
+			Name string
+			Total int
+			Bal int
+			Type int
+		}
+		var msg xmlMsg
+		msg.Name = "lisi"
+		msg.Type = 1
+		msg.Total = 100
+		msg.Bal = 1000
+		c.XML(http.StatusOK,msg)
+	})
 	r.Run(":9090")
 }
