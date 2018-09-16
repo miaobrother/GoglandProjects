@@ -130,5 +130,6 @@ func main() {
 			"title":"This is a user index",
 		})
 	})
+	r.Static("/static","./static")
 	r.Run(":9090")
 }
