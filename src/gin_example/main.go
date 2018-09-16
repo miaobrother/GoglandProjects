@@ -7,6 +7,23 @@ import (
 	"fmt"
 )
 
+func logout(c *gin.Context)  {
+	c.JSON(http.StatusOK,gin.H{
+		"message":"logout success",
+	})
+}
+
+func submit(c *gin.Context)  {
+	c.JSON(http.StatusOK,gin.H{
+		"message":"submit success",
+	})
+}
+
+func info(c *gin.Context)  {
+	c.JSON(http.StatusOK,gin.H{
+		"message":"info success",
+	})
+}
 func main() {
 	r := gin.Default()
 	r.GET("/user/search/:username/:address", func(c *gin.Context) {
@@ -47,5 +64,13 @@ func main() {
 		})
 
 	})
+
+
+	v1 := r.Group("/v1")
+	{
+		v1.POST("/logout",logout)
+		v1.POST("/submit",submit)
+		v1.POST("/user/info",info)
+	}
 	r.Run(":9090")
 }
