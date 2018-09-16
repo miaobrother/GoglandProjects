@@ -92,31 +92,43 @@ func main() {
 	})
 
 	r.GET("/moreJSON", func(c *gin.Context) {
-		type Msgmsg struct{
-			Name string `json:"user"`
+		type Msgmsg struct {
+			Name    string `json:"user"`
 			Message string
-			Number int
+			Number  int
 		}
 		var Msg Msgmsg
 		Msg.Name = "zhangsan"
 		Msg.Message = "hello zhangsana"
 		Msg.Number = 100
-		c.JSON(http.StatusOK,Msg)
+		c.JSON(http.StatusOK, Msg)
 	})
 
 	r.GET("/someXML", func(c *gin.Context) {
-		type xmlMsg struct{
-			Name string
+		type xmlMsg struct {
+			Name  string
 			Total int
-			Bal int
-			Type int
+			Bal   int
+			Type  int
 		}
 		var msg xmlMsg
 		msg.Name = "lisi"
 		msg.Type = 1
 		msg.Total = 100
 		msg.Bal = 1000
-		c.XML(http.StatusOK,msg)
+		c.XML(http.StatusOK, msg)
+	})
+
+	r.LoadHTMLGlob("templates/**/*")
+	r.GET("/posts/index", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "posts/index.html", gin.H{
+			"title": "Posts",
+		})
+	})
+	r.GET("/users/index", func(c *gin.Context) {
+		c.HTML(http.StatusOK,"users/index.html",gin.H{
+			"title":"This is a user index",
+		})
 	})
 	r.Run(":9090")
 }
