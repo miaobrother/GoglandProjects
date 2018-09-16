@@ -33,5 +33,19 @@ func main() {
 			"message":fmt.Sprintf("file %v upload succes\n",file.Filename),
 		})
 	})
+
+	r.POST("/multiupload", func(c *gin.Context) {
+		from ,_ := c.MultipartForm()
+		files := from.File["file"]
+		for _,value := range files{
+			fmt.Println(value.Filename)
+			dst := fmt.Sprintf("/tmp/%s_%d",value.Filename,value.Size)
+			c.SaveUploadedFile(value,dst)
+		}
+		c.JSON(http.StatusOK,gin.H{
+			"message":fmt.Sprintf("%d file upload",len(files)),
+		})
+
+	})
 	r.Run(":9090")
 }
