@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	abc := []int{1, 1, 2}
-	for i := 0; i < len(RemoveMap(abc)); i++ {
-		fmt.Println(RemoveMap(abc)[i])
-	}
+	abc := []int{1, 1, 2, 3, 4, 5, 6, 6}
+	//for i := 0; i < len(RemoveMap(abc)); i++ {
+	//}
+	fmt.Println(RemoveMap(abc))
 }
 
 func RemoveMap(abc []int) (s []int) {
@@ -25,6 +25,7 @@ func RemoveMap(abc []int) (s []int) {
 		}
 
 	}
+	//fmt.Println(tmp)
 	return tmp
 
 }
