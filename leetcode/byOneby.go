@@ -1,10 +1,8 @@
 package main
-
 import (
 	"fmt"
 	"time"
 )
-
 func pNum(s string, c chan int) {
 	for _, i := range s {
 		time.Sleep(time.Second)
@@ -24,7 +22,6 @@ func pStr(s string, c chan int) {
 		}
 	}
 }
-
 func main() {
 	c := make(chan int, 2)
 	go pNum("123456789", c)

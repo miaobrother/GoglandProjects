@@ -7,7 +7,7 @@ func Justify(n int) bool {
 		return false
 	}
 	for k := 2; k < n; k++ {
-		if n % k == 0 {
+		if n%k == 0 {
 			return false
 		}
 
