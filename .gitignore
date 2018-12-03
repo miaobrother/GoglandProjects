@@ -6,4 +6,5 @@ bin/
 *.ymal
 *.xml
 *.gitignore*
+.vscode/
 
