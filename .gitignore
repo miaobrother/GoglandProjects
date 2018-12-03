@@ -5,6 +5,7 @@ bin/
 *.ini
 *.ymal
 *.xml
-*.gitignore*
+.gitignore
 .vscode/
+
 
