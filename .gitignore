@@ -1,11 +1,12 @@
 # gitignore
-pkg/
-src/
-bin/
+pkg/*
+src/*
+bin/*
 *.ini
-*.ymal
-*.xml
+*.yaml
+.idea/workspace.xml
 .gitignore
 .vscode/
+README.md
 
 
