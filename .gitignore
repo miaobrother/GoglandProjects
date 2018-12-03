@@ -1,0 +1,7 @@
+# gitignore
+pkg/
+src/
+bin/
+*.ini
+*.ymal
+
