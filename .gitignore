@@ -4,4 +4,6 @@ src/
 bin/
 *.ini
 *.ymal
+*.xml
+*.gitignore*
 

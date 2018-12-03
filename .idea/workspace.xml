@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22628433-1d2a-4d86-979e-bb5d87d93a4a" name="Default" comment="修改url拼接问题">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/cfg.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/cron/bee_session.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/g/cfg.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/bee.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/logs.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/mail.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/mailConst.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/minionpublic.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/redis.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/lib/sms.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/monitor" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/alarm_minions/request/views.go" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/baseRefactoring.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/diff.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/vcs.xml" />
@@ -47,6 +34,7 @@
       <change beforePath="$USER_HOME$/AliSafeHome/statics/js/ie10-viewport-bug-workaround.js" afterPath="" />
       <change beforePath="$USER_HOME$/AliSafeHome/statics/js/npm.js" afterPath="" />
       <change beforePath="$USER_HOME$/AliSafeHome/templates/Visit_Record/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/GoglandProjects.iml" afterPath="$PROJECT_DIR$/.idea/GoglandProjects.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -303,33 +291,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bee_session.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alarm_minions/cron/bee_session.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bee.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bee.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/github.com/zcq/ceshi/bee.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="133" column="24" lean-forward="true" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cfg.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alarm_minions/cfg.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
+              <caret line="133" column="24" lean-forward="false" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -339,20 +305,8 @@
         <entry file="file://$PROJECT_DIR$/src/github.com/zcq/bee_api/bee.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+              <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/alarm_minions/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#154#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -410,8 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/phone.go" />
-        <option value="$PROJECT_DIR$/src/miaobrother/interface{}/wechat.go" />
         <option value="$PROJECT_DIR$/src/miaobrother/interface{}/main.go" />
         <option value="$PROJECT_DIR$/src/miaobrother/interface/ex_interface.go" />
         <option value="$PROJECT_DIR$/src/miaobrother/blance/blance.go" />
@@ -461,6 +413,8 @@
         <option value="$PROJECT_DIR$/study/main.go" />
         <option value="$PROJECT_DIR$/src/godir/echo.go" />
         <option value="$PROJECT_DIR$/src/alarm_minions/request/views.go" />
+        <option value="$PROJECT_DIR$/123.ini" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -471,8 +425,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="191" />
+    <option name="x" value="11" />
+    <option name="y" value="33" />
     <option name="width" value="1280" />
     <option name="height" value="697" />
   </component>
@@ -672,16 +626,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="191" width="1280" height="697" extended-state="0" />
+    <frame x="11" y="33" width="1280" height="697" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17851374" sideWeight="0.8034188" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17851374" sideWeight="0.8034188" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32539684" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21096346" sideWeight="0.50646204" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54485047" sideWeight="0.15185784" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21096346" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21096346" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45348838" sideWeight="0.8529887" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54485047" sideWeight="0.84814215" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13974153" sideWeight="0.1965812" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39427662" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1668,14 +1622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gin_example/templates/posts/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/nimeilog/main/etcd.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/godir/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1850,9 +1796,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="e#11#81#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1860,9 +1804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#13#64#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1870,26 +1812,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#17#108#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alarm_minions/cron/bee_session.go">
+    <entry file="file://$PROJECT_DIR$/src/alarm_minions/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="101">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/zcq/ceshi/bee.go">
+    <entry file="file://$PROJECT_DIR$/src/github.com/zcq/bee_api/bee.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="133" column="24" lean-forward="true" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+        <state relative-caret-position="214">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1902,21 +1840,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/zcq/bee_api/bee.go">
+    <entry file="file://$PROJECT_DIR$/src/alarm_minions/cron/bee_session.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="247">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alarm_minions/main.go">
+    <entry file="file://$PROJECT_DIR$/123.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#154#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/zcq/ceshi/bee.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="133" column="24" lean-forward="false" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
