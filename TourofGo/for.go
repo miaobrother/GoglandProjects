@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	sum := 0
-	for i := 0;i < 10;i ++{
+	for i := 0; i < 10; i++ {
 		sum += i
 	}
-	fmt.Println("The sum is:",sum)
+	fmt.Println("The sum is:", sum)
 }

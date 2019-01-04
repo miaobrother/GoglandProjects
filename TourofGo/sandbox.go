@@ -1,11 +1,11 @@
-package  main
+package main
 
 import (
 	"fmt"
 	"time"
 )
 
-func main(){
+func main() {
 	fmt.Println("Welcome to the offcn")
-	fmt.Println("The time is",time.Now())
+	fmt.Println("The time is", time.Now())
 }
