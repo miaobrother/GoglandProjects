@@ -5,17 +5,17 @@ import (
 )
 
 var (
-	nums   = []int{2, 7, 11, 15, 3, 6}
+	num   = []int{2, 7, 11, 15, 3, 6}
 	target = 9
-	res    = []int{}
+	res    = []int{1}
 )
 
-func twoSum(nums []int, target int) []int {
+func twoSum(num []int, target int) []int {
 
-	for i := 0; i < len(nums); i++ {
-		for j := 1; j < len(nums); j++ {
-			if nums[i]+nums[j] == target {
-				fmt.Println("This is the res:", nums[i], nums[j])
+	for i := 0; i < len(num); i++ {
+		for j := 1; j < len(num); j++ {
+			if num[i]+num[j] == target {
+				fmt.Println("This is the res:", num[i], num[j])
 				//return res
 			}
 		}
@@ -24,5 +24,5 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	twoSum(nums, 9)
+	twoSum(num, 9)
 }
