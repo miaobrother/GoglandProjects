@@ -1,8 +1,10 @@
 package main
+
 import (
 	"fmt"
 	"time"
 )
+
 func pNum(s string, c chan int) {
 	for _, i := range s {
 		time.Sleep(time.Second)

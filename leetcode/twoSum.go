@@ -5,7 +5,7 @@ import (
 )
 
 var (
-	num   = []int{2, 7, 11, 15, 3, 6}
+	num    = []int{2, 7, 11, 15, 3, 6}
 	target = 9
 	res    = []int{1}
 )

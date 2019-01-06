@@ -34,12 +34,11 @@ func main() {
 			log.Fatalf("Got a error is:", err)
 			return
 		}
-		newLine := strings.Replace(line,"\n","",-1)
-		fmt.Println(strings.Contains(newLine,"http://test.usnoon.com/times/admin/traffic/unregistercarstatis.html?menuid=116"))
+		newLine := strings.Replace(line, "\n", "", -1)
+		fmt.Println(strings.Contains(newLine, "http://test.usnoon.com/times/admin/traffic/unregistercarstatis.html?menuid=116"))
 		//s := strings.Split(newLine," ")
 		//fmt.Println(s)
 
 	}
-
 
 }
