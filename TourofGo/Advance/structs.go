@@ -8,6 +8,5 @@ type Vertex struct {
 }
 
 func main() {
-	fmt.Println(Vertex{1,2})
+	fmt.Println(Vertex{1, 2})
 }
-

@@ -14,6 +14,7 @@ func randValue() [10]int {
 	}
 	return dict
 }
+
 //数组做函数参数，默认是值传递
 func sortBool(dict [10]int) [10]int {
 	for i := 0; i < len(dict); i++ {
@@ -28,6 +29,6 @@ func sortBool(dict [10]int) [10]int {
 
 func main() {
 	//randValue()
-	fmt.Printf("The sortedbool is:%v\n",sortBool(randValue()))
+	fmt.Printf("The sortedbool is:%v\n", sortBool(randValue()))
 
 }
